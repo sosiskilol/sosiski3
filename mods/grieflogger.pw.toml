@@ -1,0 +1,13 @@
+name = "GriefLogger"
+filename = "grieflogger-1.2.3-1.20.1-forge.jar"
+side = "server"
+
+[download]
+url = "https://cdn.modrinth.com/data/8oGVUFuX/versions/HXfNBHbe/grieflogger-1.2.3-1.20.1-forge.jar"
+hash-format = "sha512"
+hash = "b35333b779e11a841fa1f5f88663f24c6dd014c2885e0f7789a946e63786a1a64c76eee9e4a5ef544082bc88fc0ee941b5867253e1c2e7e86b0f901c5edf9244"
+
+[update]
+[update.modrinth]
+mod-id = "8oGVUFuX"
+version = "HXfNBHbe"

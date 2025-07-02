@@ -1,0 +1,13 @@
+name = "Create: ComputerCraft"
+filename = "Create Computers 1.2.1 - 1.20.1 Resource Pack Only.zip"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/mh9nQqo4/versions/KGjoGhyf/Create%20Computers%201.2.1%20-%201.20.1%20Resource%20Pack%20Only.zip"
+hash-format = "sha512"
+hash = "61606ef330b2ed87282fc0139e0ee64ce9021d400bce7e82493a4c1821c434fa65ef04fb5ba2df701dec52a95976fc967dc4853d63f53100c5d6ad2eadc9c9f4"
+
+[update]
+[update.modrinth]
+mod-id = "mh9nQqo4"
+version = "KGjoGhyf"

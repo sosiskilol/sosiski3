@@ -1,0 +1,13 @@
+name = "Create Big Cannons: Advanced Technologies"
+filename = "cbc_at_forge_1.20.1_0.1.3a.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/pTfszyXD/versions/RbSJjkBN/cbc_at_forge_1.20.1_0.1.3a.jar"
+hash-format = "sha512"
+hash = "4fd2d61e17e09b9e6a8585283a4e243bb86f3f892f160805505f74e26458b078574c4bc1ebf2e7432f71604a5f98f72e258bba201e9e193eaf2f6fa116830b0a"
+
+[update]
+[update.modrinth]
+mod-id = "pTfszyXD"
+version = "RbSJjkBN"

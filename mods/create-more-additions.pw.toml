@@ -1,0 +1,13 @@
+name = "Create: Crafts & (More) Additions [Forge/Fabric]"
+filename = "create_more_additions-1.6.0-forge-1.20.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/ib8iIkX3/versions/9wGNfvqZ/create_more_additions-1.6.0-forge-1.20.1.jar"
+hash-format = "sha512"
+hash = "fdc201ad4a565162534324436aec9b2a33033880c4bee48c0ce81c0eb8c9fe6d76eef93c13e256fdf2d3e5efc4ed6ebcd9fb691bd0f5d90966f2d0eeb3763080"
+
+[update]
+[update.modrinth]
+mod-id = "ib8iIkX3"
+version = "9wGNfvqZ"

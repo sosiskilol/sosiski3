@@ -1,0 +1,13 @@
+name = "Create Military Grade"
+filename = "Create Military Grade 1.0.5.zip"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/rcvgfrJ0/versions/DsvucwTn/Create%20Military%20Grade%201.0.5.zip"
+hash-format = "sha512"
+hash = "a2b72699830dd3e82ef01de5ce2d038f6b15212adc7edb2a81e738afb8d622f11850020704139f9b929783743fee060a4795332d6d5558fee42f2af1d3fde0b3"
+
+[update]
+[update.modrinth]
+mod-id = "rcvgfrJ0"
+version = "DsvucwTn"

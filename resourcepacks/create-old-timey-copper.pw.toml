@@ -1,0 +1,13 @@
+name = "Create: Old Timey Copper"
+filename = "Create Old Timey Copper - v0.10.zip"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/gNxN3oN5/versions/IrEnrlmc/Create%20Old%20Timey%20Copper%20-%20v0.10.zip"
+hash-format = "sha512"
+hash = "2a778ecfd2191a807d2dd90ed5f25e3728d7edf2eb6aa6342def3b4c23893b3df831ba2569e886fbdca8fc99692eaf901f33b8841ba0fe2136a4508e8613987c"
+
+[update]
+[update.modrinth]
+mod-id = "gNxN3oN5"
+version = "IrEnrlmc"

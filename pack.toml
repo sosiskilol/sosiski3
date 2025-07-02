@@ -1,0 +1,13 @@
+name = "Sosiski-3"
+author = "sosiski.lol"
+version = "0.1.0"
+pack-format = "packwiz:1.1.0"
+
+[index]
+file = "index.toml"
+hash-format = "sha256"
+hash = "2739bbc169ddf909b0226825a17803cf0753f9abb96f00d2a43aca9c7b651d28"
+
+[versions]
+forge = "47.4.1"
+minecraft = "1.20.1"

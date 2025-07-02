@@ -1,0 +1,13 @@
+name = "Create: Additional Lights"
+filename = "morelights-0.2.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/8ynRnnKC/versions/n7HS3fe5/morelights-0.2.1.jar"
+hash-format = "sha512"
+hash = "af2fdce9ab5c4913ed99ed1ec0abcf745df0125c4d5e349e0a7c07f1a346c3a73b6b5a9c8a2cabebfaf7eead38debe958084025c80e132c4ca26fd62a2fc08fc"
+
+[update]
+[update.modrinth]
+mod-id = "8ynRnnKC"
+version = "n7HS3fe5"

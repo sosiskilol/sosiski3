@@ -1,0 +1,13 @@
+name = "Create: Packagers PSI Compat"
+filename = "packagerspsic-1.0.0.jar"
+side = "server"
+
+[download]
+url = "https://cdn.modrinth.com/data/MAWWVb2i/versions/FttiP2at/packagerspsic-1.0.0.jar"
+hash-format = "sha512"
+hash = "b765c9cf38920589d4384cc53482b7cf1318d76764cb7ae544ff752312ad74f07d52fdd9a8c5f5bdf3b7894d258c7241f725d1a406c4f4d75d8cee0ac2ff6d46"
+
+[update]
+[update.modrinth]
+mod-id = "MAWWVb2i"
+version = "FttiP2at"

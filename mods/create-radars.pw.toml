@@ -1,0 +1,13 @@
+name = "Create: Radars"
+filename = "create_radar-0.3-1.20.1-forge.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/BLu2Yqfq/versions/YQmw7RU0/create_radar-0.3-1.20.1-forge.jar"
+hash-format = "sha512"
+hash = "d64ff55be26b9152deed86cdf4bdc13257bf0677b7f4888f8d4c048d234aec91295ef2b74b23b737a394e625d460f918c54d31fc36adcd65a69803c2e5ab8e9d"
+
+[update]
+[update.modrinth]
+mod-id = "BLu2Yqfq"
+version = "YQmw7RU0"
