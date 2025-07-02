@@ -1,13 +1,13 @@
 name = "Figura"
-filename = "figura-0.1.2+1.20.1.jar"
+filename = "figura-0.1.4+1.20.1-forge-mc.jar"
 side = "client"
 
 [download]
-url = "https://cdn.modrinth.com/data/s9gIPDom/versions/8892Wqoi/figura-0.1.2%2B1.20.1.jar"
+url = "https://cdn.modrinth.com/data/s9gIPDom/versions/vo8jpIKn/figura-0.1.4%2B1.20.1-forge-mc.jar"
 hash-format = "sha512"
-hash = "64c7757ca16cc41be6e5c2949991381b09e74c324975fe6371f74fb3e3fff4cf039c3f20f6171319499efbc34f5a15e6cb79bf51ea1a7f88fc1ddfa4280f757b"
+hash = "67613183318be52472809bc4e35acb01bd1050767346f917823ce6ca18e7f4e529c1752b2c0d516dfc59058a402e280ecfca922870332069353f6a7ac4e0fc45"
 
 [update]
 [update.modrinth]
 mod-id = "s9gIPDom"
-version = "8892Wqoi"
+version = "vo8jpIKn"
