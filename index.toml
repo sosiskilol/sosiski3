@@ -86,6 +86,11 @@ hash = "2efedb0b64d603d60d0d6dce6eee71d73e6d523468f16f53179c77a4e9a32469"
 metafile = true
 
 [[files]]
+file = "mods/create-armor-blocks.pw.toml"
+hash = "ad6b8a737d4697507156b87f8f1b743e4a0252183b3ad49d778eb0a5d7f7b665"
+metafile = true
+
+[[files]]
 file = "mods/create-big-cannons-advanced-technologies.pw.toml"
 hash = "be9105f19c4c8056dc6c40af2d85f0d33ee0f59257473f5b19aff1301b931971"
 metafile = true
