@@ -232,3 +232,8 @@ craftingTable.addShaped("sosiski_protivotankoviy_yojik", <item:createarmorblocks
     [<item:minecraft:air>, <item:create:metal_girder>, <item:minecraft:air>],
     [<item:create:metal_girder>, <item:minecraft:air>, <item:create:metal_girder>],
 ]);
+
+// remove tconstruct melting
+<recipetype:tconstruct:melting>.removeByInput(<item:minecraft:chain>);
+<recipetype:tconstruct:melting>.removeByInput(<item:minecraft:bell>);
+<recipetype:tconstruct:melting>.removeByInput(<item:minecraft:hopper>);
