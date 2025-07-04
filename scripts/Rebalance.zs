@@ -233,6 +233,13 @@ craftingTable.addShaped("sosiski_protivotankoviy_yojik", <item:createarmorblocks
     [<item:create:metal_girder>, <item:minecraft:air>, <item:create:metal_girder>],
 ]);
 
+// Create Radars safe zone prikol
+craftingTable.addShaped("sosiski_safe_zone", <item:create_radar:radar_safe_zone_designator>, [
+    [<item:minecraft:air>, <item:create:transmitter>], 
+    [<item:minecraft:air>, <item:create:brass_sheet>],
+    [<item:minecraft:air>, <item:create:electron_tube>],
+]);
+
 // remove tconstruct melting
 <recipetype:tconstruct:melting>.removeByInput(<item:minecraft:chain>);
 <recipetype:tconstruct:melting>.removeByInput(<item:minecraft:bell>);
