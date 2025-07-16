@@ -1,13 +1,13 @@
 name = "CTR VCR"
-filename = "CTR-VCR_v1.2.2.zip"
+filename = "CTR-VCR_v1.2.3.zip"
 side = "client"
 
 [download]
-url = "https://cdn.modrinth.com/data/XaonJnsc/versions/rWV62QxS/CTR-VCR_v1.2.2.zip"
+url = "https://cdn.modrinth.com/data/XaonJnsc/versions/TRNw5dLv/CTR-VCR_v1.2.3.zip"
 hash-format = "sha512"
-hash = "ebe8f0fd58da0ac909b0f0a3b6362d607790bdb629f24b9b050fd64576e1f35586410e4903c05d4c35932967386339f11be8c0b1af96b7c68a146c067a167118"
+hash = "02169087f5fc9d51032b2245958b947905deb74df0f07f5b4b62181b827b00562569bef4f173f4a94f0d9b8d92ca6f1e6be4335b499b8d6569831695854c5940"
 
 [update]
 [update.modrinth]
 mod-id = "XaonJnsc"
-version = "rWV62QxS"
+version = "TRNw5dLv"
