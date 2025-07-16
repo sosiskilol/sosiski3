@@ -244,3 +244,33 @@ craftingTable.addShaped("sosiski_safe_zone", <item:create_radar:radar_safe_zone_
 <recipetype:tconstruct:melting>.removeByInput(<item:minecraft:chain>);
 <recipetype:tconstruct:melting>.removeByInput(<item:minecraft:bell>);
 <recipetype:tconstruct:melting>.removeByInput(<item:minecraft:hopper>);
+
+// HE shell rebalance
+<recipetype:create:mechanical_crafting>.remove(<item:createbigcannons:he_shell>);
+<recipetype:create:mechanical_crafting>.addJsonRecipe("he_shell_rebalance", {
+    "type": "create:mechanical_crafting",
+
+    "pattern": [
+        " I ",
+        "IGI",
+        "INI",
+        " W "
+    ],
+    "key": {
+       "I": {
+            "item": "createdeco:industrial_iron_sheet"
+        },
+        "G": {
+            "item": "createbigcannons:packed_guncotton"
+        },
+        "N": {
+            "item": "createbigcannons:nitropowder"
+        },
+        "W": {
+            "item": "minecraft:oak_slab"
+        }
+    },
+    "result": {
+        "item": "createbigcannons:he_shell"
+    }
+});
