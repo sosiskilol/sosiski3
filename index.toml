@@ -1,6 +1,10 @@
 hash-format = "sha256"
 
 [[files]]
+file = "config/figura.json"
+hash = "9c0465dcc0c01698a01f91db5faf5fe3a4afda6885c54941af6af4bf58b56f77"
+
+[[files]]
 file = "mods/advancedperipherals.pw.toml"
 hash = "0182123a19bb7ee99cb8db17b8d10262a498718a117a47c105fd7b84110a1fcb"
 metafile = true
