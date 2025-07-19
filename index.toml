@@ -225,11 +225,6 @@ hash = "f0b4372343e873512d57e5ee877f37362f8dde8e75771075abe44686509294b9"
 metafile = true
 
 [[files]]
-file = "mods/endship-elytra-nuker.pw.toml"
-hash = "fb0cb8bbfa2fb5b78cb949dba54fcc3010ae44a3cacdf50a0549205ccba3be5d"
-metafile = true
-
-[[files]]
 file = "mods/entityculling.pw.toml"
 hash = "6b5beaa7e7d45699c26a36b80b666edf0ce61df30e197bff004fc6f711d25fad"
 metafile = true
