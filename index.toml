@@ -5,6 +5,10 @@ file = "config/figura.json"
 hash = "9c0465dcc0c01698a01f91db5faf5fe3a4afda6885c54941af6af4bf58b56f77"
 
 [[files]]
+file = "config/tablist-common.toml"
+hash = "7122147a53f51a8809b0dd4112c8e14e4d97cb8d166f215b88cd0ef351a99847"
+
+[[files]]
 file = "mods/advancedperipherals.pw.toml"
 hash = "0182123a19bb7ee99cb8db17b8d10262a498718a117a47c105fd7b84110a1fcb"
 metafile = true
@@ -387,6 +391,11 @@ metafile = true
 [[files]]
 file = "mods/supermartijn642s-core-lib.pw.toml"
 hash = "b969799c17defc1e7c76e4605557c9d32802a0004a5e45b7044e85d3d9c43345"
+metafile = true
+
+[[files]]
+file = "mods/tab-list.pw.toml"
+hash = "0e583218ac44c2126108cac4d4c85ac17c988e201bfba077f39ffd1da8e8b9c4"
 metafile = true
 
 [[files]]
