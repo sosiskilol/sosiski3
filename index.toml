@@ -208,6 +208,11 @@ hash = "abc9d37db15b923cab7bab5561e1ca7bf842d82a62ee04a1e20a4c4e9c031433"
 metafile = true
 
 [[files]]
+file = "mods/dim-coord-ratio.pw.toml"
+hash = "794c8c4593a263213f7aa89da85e20d02da09fd596ba6890b5b006a2107b84fd"
+metafile = true
+
+[[files]]
 file = "mods/direct-chute.pw.toml"
 hash = "aa4f8c8a9c068f4eafa42647c8bb87ef4023c0c29e1cb85142df6f193dc98fbb"
 metafile = true

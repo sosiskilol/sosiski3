@@ -1,0 +1,13 @@
+name = "Dimensional Coordinates Ratio"
+filename = "dim_coord_ratio-1.0.1-1.20.1.jar"
+side = "server"
+
+[download]
+url = "https://cdn.modrinth.com/data/ncfm8hsh/versions/HHLfeXm7/dim_coord_ratio-1.0.1-1.20.1.jar"
+hash-format = "sha512"
+hash = "a3b9a5518a9c40faa610b873fa56d034cde9e9f880adcd3fb3e64ffd126e2adcbca197d6c2de186dd0187a7e9ddaf01caade370276e6af42b822fe1cd36b5164"
+
+[update]
+[update.modrinth]
+mod-id = "ncfm8hsh"
+version = "HHLfeXm7"
