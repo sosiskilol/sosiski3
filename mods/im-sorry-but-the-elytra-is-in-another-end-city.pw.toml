@@ -1,0 +1,13 @@
+name = "I'm sorry but the Elytra is in another End City"
+filename = "NoElytrasMod-1.20-1.20.1-1.0.jar"
+side = "server"
+
+[download]
+url = "https://cdn.modrinth.com/data/xGmalenI/versions/roKo3Z93/NoElytrasMod-1.20-1.20.1-1.0.jar"
+hash-format = "sha512"
+hash = "0f13acc02cb58df4bbaa8b2935b591d76ecb2d33298b228dc71dd7c723794a969a826a9973face1511d61f345670887b30f7182c2103596fbee7cc4d33fc83b6"
+
+[update]
+[update.modrinth]
+mod-id = "xGmalenI"
+version = "roKo3Z93"

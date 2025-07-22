@@ -283,6 +283,11 @@ hash = "db495b3ac268709a2ba673bfe220b10257fb7dae549f94bfbd539617d571f131"
 metafile = true
 
 [[files]]
+file = "mods/im-sorry-but-the-elytra-is-in-another-end-city.pw.toml"
+hash = "41bf7f964a6bde7a54c5eb1cb36cdf3eed2004e4d4d3c578bab3c5937f434139"
+metafile = true
+
+[[files]]
 file = "mods/interiors.pw.toml"
 hash = "94a549e2ce246807a68cb59773e2ee2ec412039fb2aed4e4d5b35077972c66d4"
 metafile = true
