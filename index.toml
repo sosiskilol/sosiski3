@@ -10,7 +10,7 @@ hash = "9c0465dcc0c01698a01f91db5faf5fe3a4afda6885c54941af6af4bf58b56f77"
 
 [[files]]
 file = "config/tablist-common.toml"
-hash = "7122147a53f51a8809b0dd4112c8e14e4d97cb8d166f215b88cd0ef351a99847"
+hash = "20ad10b00a86c31235c27bdb393cd3c9a756e56d3e6ac08c0a9b5b70b434689d"
 
 [[files]]
 file = "mods/advancedperipherals.pw.toml"

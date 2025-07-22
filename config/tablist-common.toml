@@ -7,5 +7,5 @@
 #
 [TabList]
 	header = "#N             &a&lSOSISKI           #N&a&l&m    #N"
-	footer = "#N&fᴏɴʟɪɴᴇ: &e#PLAYERCOUNT &f| ᴘɪɴɢ: &e#PING#N&fᴛᴘꜱ: &e#TPS &f| ᴍꜱᴘᴛ: &e#MSPT#N"
+	footer = "#N&fᴏɴʟɪɴᴇ: &e#PLAYERCOUNT &f| ᴘɪɴɢ: &e#PING#N&fᴛᴘꜱ: &eхороший &f| ᴍꜱᴘᴛ: &e#MSPT#N"
 
