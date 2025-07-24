@@ -1,13 +1,13 @@
 name = "Create: Diesel Generators"
-filename = "createdieselgenerators-1.20.1-1.3.3.jar"
+filename = "createdieselgenerators-1.20.1-1.3.4.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/ZM3tt6p1/versions/rhxQsell/createdieselgenerators-1.20.1-1.3.3.jar"
+url = "https://cdn.modrinth.com/data/ZM3tt6p1/versions/FNKIQlNA/createdieselgenerators-1.20.1-1.3.4.jar"
 hash-format = "sha512"
-hash = "bae4a7b718bc7340183d8926dcd912c31a26f4b89fe5b154f8ac8dffd927373179e7303b2401307405462f7af5443092280c6a8ac79c48335fca33a7caad536b"
+hash = "528236747e4d9848f66d231bb48066c746959e986a520bf3889c085b39fe88f05adbe413535de4f66e8871bb077a85e18e38f974d11a7be7f913e27d14ad5d30"
 
 [update]
 [update.modrinth]
 mod-id = "ZM3tt6p1"
-version = "rhxQsell"
+version = "FNKIQlNA"
