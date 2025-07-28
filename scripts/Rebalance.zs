@@ -274,3 +274,7 @@ craftingTable.addShaped("sosiski_safe_zone", <item:create_radar:radar_safe_zone_
         "item": "createbigcannons:he_shell"
     }
 });
+
+// remove crafting brass from iron
+
+<recipetype:create:pressing>.removeByName("createarmorblocks:pressing/heavy_armor_block");
