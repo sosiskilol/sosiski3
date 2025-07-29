@@ -244,6 +244,7 @@ craftingTable.addShaped("sosiski_safe_zone", <item:create_radar:radar_safe_zone_
 <recipetype:tconstruct:melting>.removeByInput(<item:minecraft:chain>);
 <recipetype:tconstruct:melting>.removeByInput(<item:minecraft:bell>);
 <recipetype:tconstruct:melting>.removeByInput(<item:minecraft:hopper>);
+<recipetype:tconstruct:melting>.removeByInput(<item:minecraft:cauldron>);
 
 // HE shell rebalance
 <recipetype:create:mechanical_crafting>.remove(<item:createbigcannons:he_shell>);
