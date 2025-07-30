@@ -279,3 +279,7 @@ craftingTable.addShaped("sosiski_safe_zone", <item:create_radar:radar_safe_zone_
 // remove crafting brass from iron
 
 <recipetype:create:pressing>.removeByName("createarmorblocks:pressing/heavy_armor_block");
+
+// fix oil barrel craft
+
+<recipetype:minecraft:crafting>.removeByName("create_connected:crafting/kinetics/item_silo");
