@@ -1,13 +1,13 @@
 name = "Mantle"
-filename = "Mantle-1.20.1-1.11.71.jar"
+filename = "Mantle-1.20.1-1.11.79.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/Cg6Uc79H/versions/M8XCCqYJ/Mantle-1.20.1-1.11.71.jar"
+url = "https://cdn.modrinth.com/data/Cg6Uc79H/versions/ATZFAPLK/Mantle-1.20.1-1.11.79.jar"
 hash-format = "sha512"
-hash = "652af06c5877fb8964e895188bc40702886b3d69a9caa8332c3562eeacfd4f9a79b64c644ea6db8b45fad1e679fd834b1c522c32abc19fda9a48a95a282b7cfe"
+hash = "65042445a59c0c439abd7200f81f4f35b1f700969ff0d2665582e8947c7391880cf1ff349375dbeb8d9ed68c8b19baf3c80c89f72327816b42539a5d0b3a237d"
 
 [update]
 [update.modrinth]
 mod-id = "Cg6Uc79H"
-version = "M8XCCqYJ"
+version = "ATZFAPLK"

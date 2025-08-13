@@ -14,7 +14,7 @@ hash = "20ad10b00a86c31235c27bdb393cd3c9a756e56d3e6ac08c0a9b5b70b434689d"
 
 [[files]]
 file = "mods/advancedperipherals.pw.toml"
-hash = "0182123a19bb7ee99cb8db17b8d10262a498718a117a47c105fd7b84110a1fcb"
+hash = "b0c71950ebcbed60805b1d30b1f5107bd3a96f95f89a99be8adfaf98e97b3749"
 metafile = true
 
 [[files]]
@@ -184,7 +184,7 @@ metafile = true
 
 [[files]]
 file = "mods/create-steam-n-rails.pw.toml"
-hash = "076ff478a024d973f3892ec67884f8f6973b0945bcd38900eefc113ea0ff9f71"
+hash = "809b6d4cb3454599c2f55610364519ddf93bbb089fab27a6d43db0f536902b0d"
 metafile = true
 
 [[files]]
@@ -299,7 +299,7 @@ metafile = true
 
 [[files]]
 file = "mods/jade.pw.toml"
-hash = "66a8d44f5ef66075063ced8b54312a46bb8a256090d36df877b8ff58de9d16be"
+hash = "0fbcc8cf03336e6bed425e2115fc4ff1a3a05be5c655228b305e70380eb08b57"
 metafile = true
 
 [[files]]
@@ -314,7 +314,7 @@ metafile = true
 
 [[files]]
 file = "mods/mantle.pw.toml"
-hash = "6c46d84fce7037dc837429f86c924bf51984054eac343e1beb4ffc50cb3bd532"
+hash = "adb67ada5c165ea4a43f4c3e53ffd61c90e21292596b5609d97e938f6e8e7b16"
 metafile = true
 
 [[files]]
@@ -329,12 +329,12 @@ metafile = true
 
 [[files]]
 file = "mods/modernfix.pw.toml"
-hash = "dc906a68268eaba1a7690ddda6931e752b72aba629eec3407f252ecee76b70ea"
+hash = "f7f82c3216ba9bfac7b9d040d0a1845d94f693b70f9981f5caf497e81f73bfae"
 metafile = true
 
 [[files]]
 file = "mods/more-delight.pw.toml"
-hash = "099b3574b2671fcd09245a96625a72987a85ba88c9b74f20f02084b3f8aaab93"
+hash = "b4a42211df7adc0378b305db8a677a28f2844c8639a51fbdfe0e972efe344304"
 metafile = true
 
 [[files]]
@@ -379,7 +379,7 @@ metafile = true
 
 [[files]]
 file = "mods/simple-voice-chat.pw.toml"
-hash = "736708015c1163343eb381c0f61b030d25ec940033e8d1e62a9c83f259f65d9b"
+hash = "30ae3e1cc1c6e3f09b29fc3a61fa8b8683ec7d5d31f4b234a27d58a99accbb20"
 metafile = true
 
 [[files]]
