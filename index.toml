@@ -443,6 +443,11 @@ hash = "2bb8c65e92264ca78b851a7e04461d9ef2c1e0bfab532ece8cefed5330680653"
 metafile = true
 
 [[files]]
+file = "mods/yacl.pw.toml"
+hash = "f3b3d035b89519faccc4ddd8b0b4407ce96c0eb49068fe50a445d43a3baa8bea"
+metafile = true
+
+[[files]]
 file = "resourcepacks/create-computercraft.pw.toml"
 hash = "5acf665b02f3a79024123c7824fd13bcb29b955c8d03c13806e13253352fb012"
 metafile = true
