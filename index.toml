@@ -393,6 +393,11 @@ hash = "de023c84385bc6e7399d54e2c172c96c95e501104c822496ff1b336ea11a60b3"
 metafile = true
 
 [[files]]
+file = "mods/satisfying-buttons.pw.toml"
+hash = "5449183ef8b3c4855e5b061c7151b28c68d89c3bb0ef138ee4680f363eb28930"
+metafile = true
+
+[[files]]
 file = "mods/simple-voice-chat.pw.toml"
 hash = "30ae3e1cc1c6e3f09b29fc3a61fa8b8683ec7d5d31f4b234a27d58a99accbb20"
 metafile = true

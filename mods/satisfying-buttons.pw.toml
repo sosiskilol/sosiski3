@@ -1,0 +1,13 @@
+name = "Satisfying Buttons"
+filename = "satisfying_buttons-forge-1.1.2-1.20.1.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/Zf8HMFM5/versions/1hVdykqq/satisfying_buttons-forge-1.1.2-1.20.1.jar"
+hash-format = "sha512"
+hash = "0d8479a58e40e3d3ec92dd9105b9d732708379dd52782f2b541975a6eca60baa2104a1599f22d874afba990a9e4c3f4748112ff4d4968d3909dca74eed3f50a1"
+
+[update]
+[update.modrinth]
+mod-id = "Zf8HMFM5"
+version = "1hVdykqq"
