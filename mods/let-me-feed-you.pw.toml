@@ -1,0 +1,13 @@
+name = "Let Me Feed You!"
+filename = "LetMeFeedYou-forge-1.20.1-1.0.0.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/WkBD5Cw5/versions/W9bHKSOW/LetMeFeedYou-forge-1.20.1-1.0.0.jar"
+hash-format = "sha512"
+hash = "fdf36ba46f15b4526966905007bed2f9150fd43fb2ea6bf64891521156e735fa189cb27d8dbbfccddccd6f9552ed7dec19770453dcf338eb297e84755f15276d"
+
+[update]
+[update.modrinth]
+mod-id = "WkBD5Cw5"
+version = "W9bHKSOW"

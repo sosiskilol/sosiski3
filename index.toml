@@ -73,8 +73,23 @@ hash = "de0ab85ea06d797c2b3b5c70c8f1fdfc1f76fb2530f792a89f4f6d9807fc649a"
 metafile = true
 
 [[files]]
+file = "mods/chatimage.pw.toml"
+hash = "41b74460fe85c14f73a6909e259174adedc5e2c47826c91a429dd783a29b0740"
+metafile = true
+
+[[files]]
+file = "mods/chatnotify.pw.toml"
+hash = "2db997203e1bcc3d51f7f10bfb80cf0d3dff2a4a3be41bc007f719a4e313b30b"
+metafile = true
+
+[[files]]
 file = "mods/chloride.pw.toml"
 hash = "5fffcedde4d14f05b332a6a70680340ae2021d2697b45e49ffedb073abcb7c5c"
+metafile = true
+
+[[files]]
+file = "mods/cloth-config.pw.toml"
+hash = "e3dd03e7fec88831974857e2cdded54dd5c5bdcaa3f6d6248c2800e82db4dd41"
 metafile = true
 
 [[files]]
@@ -293,6 +308,11 @@ hash = "41bf7f964a6bde7a54c5eb1cb36cdf3eed2004e4d4d3c578bab3c5937f434139"
 metafile = true
 
 [[files]]
+file = "mods/inline.pw.toml"
+hash = "9091cd2ee859de39c863e5e54c4b999b4bd01b7ba6f21c78fbc23a3a3f520bd1"
+metafile = true
+
+[[files]]
 file = "mods/interiors.pw.toml"
 hash = "94a549e2ce246807a68cb59773e2ee2ec412039fb2aed4e4d5b35077972c66d4"
 metafile = true
@@ -320,6 +340,11 @@ metafile = true
 [[files]]
 file = "mods/kotlin-for-forge.pw.toml"
 hash = "7ea985404ee4cc9082472c6869ec146309f526e395361b39f2f4c1a43506c41d"
+metafile = true
+
+[[files]]
+file = "mods/let-me-feed-you.pw.toml"
+hash = "27fcffbb2905dcfd1b1a9e4c101bd588fbd3eb401eaa7621e104d83ba5dae38a"
 metafile = true
 
 [[files]]
@@ -395,6 +420,11 @@ metafile = true
 [[files]]
 file = "mods/satisfying-buttons.pw.toml"
 hash = "5449183ef8b3c4855e5b061c7151b28c68d89c3bb0ef138ee4680f363eb28930"
+metafile = true
+
+[[files]]
+file = "mods/scribble.pw.toml"
+hash = "df1b5464f5b59b42724929071d4dd8a31be95d0e4e4fcf07f98bd9ade0a7bc59"
 metafile = true
 
 [[files]]
