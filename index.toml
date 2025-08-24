@@ -19,7 +19,7 @@ metafile = true
 
 [[files]]
 file = "mods/almost-unified.pw.toml"
-hash = "e860a4d8ccff8c2b14487c96627c8e34743db1f9854216fb8c87f525f50bcb5b"
+hash = "e1a222c5ace6d1b4bab067b1245e460179a153f1e7bc8538335056fa8442155c"
 metafile = true
 
 [[files]]
@@ -104,7 +104,7 @@ metafile = true
 
 [[files]]
 file = "mods/crafttweaker.pw.toml"
-hash = "dd5114899f4f134619210bd224f9c4a66132e04f30ba8252789ef220e5e72776"
+hash = "5b39d18c3cc2ba014e309a688aea1c6acbb6650b5885a349af0127990fd06824"
 metafile = true
 
 [[files]]
@@ -144,7 +144,7 @@ metafile = true
 
 [[files]]
 file = "mods/create-diesel-generators.pw.toml"
-hash = "ad1f1ebef04270a531cec5534a928557535b7903bdb103765be1a9ff5b8e4824"
+hash = "65060f66cd19ebffad8ba87a11109877fc7f6965da5e005cb14686d6f6b2cfcc"
 metafile = true
 
 [[files]]
@@ -264,12 +264,12 @@ metafile = true
 
 [[files]]
 file = "mods/fancymenu.pw.toml"
-hash = "2f23491c650ffa8f2758ea80e98da56e9a6791551fa5dc9eb995434a55f58785"
+hash = "5ee15a58d7403c4c93dc0f54226706596355dcc6312ec13d10f7ea9d4adb71ba"
 metafile = true
 
 [[files]]
 file = "mods/farmers-delight.pw.toml"
-hash = "7b846273c5cbc4d0eb1f3d0eb4802b0e81e54dea84cf25666015ca50931fe307"
+hash = "9f2ffb0d4c65fcb2a96878287a7119459b9d0637c395e5097d691416690d6563"
 metafile = true
 
 [[files]]
@@ -489,7 +489,7 @@ metafile = true
 
 [[files]]
 file = "resourcepacks/create-military-grade.pw.toml"
-hash = "ffe31e6ba5792c9f53ee3f8f82ec221418e0e55360637375e3355310abf2b2b3"
+hash = "de20f85e60037601acfdf3f9ecba9eb216fedf76551433f1887eef7a044ae07f"
 metafile = true
 
 [[files]]
