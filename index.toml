@@ -5,6 +5,66 @@ file = "config/antiportals-common.toml"
 hash = "167be451731afbba746e4e21d8e8fa43709f28510691912dc2ee6b20dda1a07f"
 
 [[files]]
+file = "config/fancymenu/assets/account_button_hover.png"
+hash = "1c764e411455815d2d313bab9bd5af316435edabc2dcf7c231be40867d61d67a"
+
+[[files]]
+file = "config/fancymenu/assets/account_button_normal.png"
+hash = "383c58e4276fe19edee00e29fe6a9980a2e47ffdd8f333c20312738d4dd6ab56"
+
+[[files]]
+file = "config/fancymenu/assets/gentoo12309_face.png"
+hash = "b34729196dba0b83c6c7445dbf3639833bf0d21f170085ba862ea7397d69bfe3"
+
+[[files]]
+file = "config/fancymenu/assets/kompudaxter_face.png"
+hash = "79870cea656f26d51f55851bd9cb480a800b040a2a3ae380af089fa0fe12a919"
+
+[[files]]
+file = "config/fancymenu/assets/maksales_face.png"
+hash = "c8d7287a8d3d9037f9f5b07676e73b6c6a0fe037899cfeba70f23eaf364f01d9"
+
+[[files]]
+file = "config/fancymenu/assets/simplecube_face.png"
+hash = "55b5904f5bdaedc65af89a1c818573f919525e6f8538c065c57b0c080ebdb285"
+
+[[files]]
+file = "config/fancymenu/custom_gui_screens.txt"
+hash = "d91516faba4eeab4fba282b22eb17428da918a8d70f0a7e7d296b3360cd52671"
+
+[[files]]
+file = "config/fancymenu/customizablemenus.txt"
+hash = "7bcde0d8a26ecbbeb5c7896880a77bbbd14a39491ff01f6bf786bdf91d20ad30"
+
+[[files]]
+file = "config/fancymenu/customization/lol.sosiski.client.gui.screen.authscreen_layout.txt"
+hash = "957281ce4dff76e445c6598139d8f565923632b005f6ff6a8eb5d368b5b08ae9"
+
+[[files]]
+file = "config/fancymenu/customization/options_screen_layout.txt"
+hash = "7d8ac0b75fed488556964d749500ed8375e386dcc10a419fc8ae708c6c83c9e8"
+
+[[files]]
+file = "config/fancymenu/customization/pause_screen_layout.txt"
+hash = "e892a88bce88468b60215469b2d080d753818b0d09a30121eed9b9c5a2302d4c"
+
+[[files]]
+file = "config/fancymenu/customization/sosiski.credits_layout.txt"
+hash = "98daf4462777f92a17893c9fb2b6ef39541bc86ce4ca1e2ceb597a9ce971a72e"
+
+[[files]]
+file = "config/fancymenu/customization/title_screen_layout.txt"
+hash = "390c4c0aef02e5eae1aae1ecb5b1c2931208abb45d036fc80e589d55c9cb803e"
+
+[[files]]
+file = "config/fancymenu/legacy_checklist.txt"
+hash = "9a25d3dc708e43eabafce5479a13c02dae15bc7f673afb2745b8b2ba48a97dc0"
+
+[[files]]
+file = "config/fancymenu/options.txt"
+hash = "fc6bba1a440de2bf948f09da162567942443f6a51ee70b283d8f465471bc734d"
+
+[[files]]
 file = "config/figura.json"
 hash = "9c0465dcc0c01698a01f91db5faf5fe3a4afda6885c54941af6af4bf58b56f77"
 
