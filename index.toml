@@ -319,7 +319,7 @@ metafile = true
 
 [[files]]
 file = "mods/extra-gauges.pw.toml"
-hash = "adac7da04a68427dcaf0703f1ba2ce9deeb5813119fd5e2070f9fe1ca09c11ca"
+hash = "808a9cf05e429359f465e368f0af41fd4e860b17a5b3b024a86546894fb7ce83"
 metafile = true
 
 [[files]]
@@ -464,7 +464,7 @@ metafile = true
 
 [[files]]
 file = "mods/packet-fixer.pw.toml"
-hash = "6228ae1e24e5f876d3feff6b45762a20fc496f1c3f7e48972d45446e42d095bc"
+hash = "3ab8970e80d25686ebe4bf0747a96d116ab961ce6974aa815cc9fcbce5553b62"
 metafile = true
 
 [[files]]
