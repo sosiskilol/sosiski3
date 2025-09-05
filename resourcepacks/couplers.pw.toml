@@ -1,0 +1,13 @@
+name = "S&R Longer Couplers"
+filename = "SR Longer Couplers.zip"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "aa27cc6d796001bbb6e0bb5ff88771e8fdf1d520"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6688886
+project-id = 1293031

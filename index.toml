@@ -538,6 +538,11 @@ hash = "f3b3d035b89519faccc4ddd8b0b4407ce96c0eb49068fe50a445d43a3baa8bea"
 metafile = true
 
 [[files]]
+file = "resourcepacks/couplers.pw.toml"
+hash = "1026115b6697db064becbef0ee0ec5aa2cb7669a28a250aa8db26e7518c8d5e1"
+metafile = true
+
+[[files]]
 file = "resourcepacks/create-computercraft.pw.toml"
 hash = "5acf665b02f3a79024123c7824fd13bcb29b955c8d03c13806e13253352fb012"
 metafile = true
