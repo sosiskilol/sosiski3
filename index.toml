@@ -548,11 +548,6 @@ hash = "5acf665b02f3a79024123c7824fd13bcb29b955c8d03c13806e13253352fb012"
 metafile = true
 
 [[files]]
-file = "resourcepacks/create-diesel-generators-better-sounds-pack.pw.toml"
-hash = "26074c8b638ea99ffa158b92193699394295af012e6a2c0f161a4328d271e18c"
-metafile = true
-
-[[files]]
 file = "resourcepacks/create-military-grade.pw.toml"
 hash = "de20f85e60037601acfdf3f9ecba9eb216fedf76551433f1887eef7a044ae07f"
 metafile = true
