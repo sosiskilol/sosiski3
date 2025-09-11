@@ -1,6 +1,10 @@
 hash-format = "sha256"
 
 [[files]]
+file = "README.md"
+hash = "227214269f495bbd3275b32e9256b03368b840e32e58ce875fff8d0783273392"
+
+[[files]]
 file = "config/antiportals-common.toml"
 hash = "167be451731afbba746e4e21d8e8fa43709f28510691912dc2ee6b20dda1a07f"
 
@@ -139,7 +143,7 @@ metafile = true
 
 [[files]]
 file = "mods/chatnotify.pw.toml"
-hash = "2db997203e1bcc3d51f7f10bfb80cf0d3dff2a4a3be41bc007f719a4e313b30b"
+hash = "467ad9cd289c9fe300ccdb7158911b04764804d3cba26b5baa3b7ee2d4c89144"
 metafile = true
 
 [[files]]
@@ -484,7 +488,7 @@ metafile = true
 
 [[files]]
 file = "mods/simple-voice-chat.pw.toml"
-hash = "7451fffd4702db08b9d04aca87ec103c1694e2370bd8c7ced7e379a9f1e10816"
+hash = "24f0481850128deeaa413acb5b68f370c174000e557f407c9156d6f47189f895"
 metafile = true
 
 [[files]]
@@ -514,7 +518,7 @@ metafile = true
 
 [[files]]
 file = "mods/tab-list.pw.toml"
-hash = "0e583218ac44c2126108cac4d4c85ac17c988e201bfba077f39ffd1da8e8b9c4"
+hash = "db53ce5510f40712325ea8413dca6f4e320b601f91a61d9e461c60ba04a4aca5"
 metafile = true
 
 [[files]]
@@ -549,7 +553,7 @@ metafile = true
 
 [[files]]
 file = "resourcepacks/create-military-grade.pw.toml"
-hash = "de20f85e60037601acfdf3f9ecba9eb216fedf76551433f1887eef7a044ae07f"
+hash = "001f6171ab2b6ad2c9bd2576d6d157bbc1c060f381591bd51986caf733b96868"
 metafile = true
 
 [[files]]

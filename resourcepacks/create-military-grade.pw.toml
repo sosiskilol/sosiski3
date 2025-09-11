@@ -1,13 +1,13 @@
 name = "Create Military Grade"
-filename = "Create Military Grade 1.0.8.zip"
+filename = "Create Military Grade 1.0.9.zip"
 side = "client"
 
 [download]
-url = "https://cdn.modrinth.com/data/rcvgfrJ0/versions/BdqERfqc/Create%20Military%20Grade%201.0.8.zip"
+url = "https://cdn.modrinth.com/data/rcvgfrJ0/versions/WIj4L6ZF/Create%20Military%20Grade%201.0.9.zip"
 hash-format = "sha512"
-hash = "b4f9a4e667aeed05715cc0f7d263bf52f78c8672c05dbb187046d95549fbf76920ba7f24b45a6bab2949b379ac9c96ba6de51cb0914eca0af2c47940ba878ad4"
+hash = "396a420d49ebdef75c9354c974cb4781c531f2cff95a6929c223086e4a8a7ae1a7c9eff58944e91b88f3ea10c62ffb1b74260f8e17eadbaf5c320c2fa8076cbd"
 
 [update]
 [update.modrinth]
 mod-id = "rcvgfrJ0"
-version = "BdqERfqc"
+version = "WIj4L6ZF"
