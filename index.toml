@@ -472,6 +472,11 @@ hash = "3ab8970e80d25686ebe4bf0747a96d116ab961ce6974aa815cc9fcbce5553b62"
 metafile = true
 
 [[files]]
+file = "mods/power-grid.pw.toml"
+hash = "f3dbe132c32a40795c42a5a828fcbd09f1c3878b71f8e8d19184cb500eb1daed"
+metafile = true
+
+[[files]]
 file = "mods/resourceful-lib.pw.toml"
 hash = "5c07edd0c8fe82e85efd6c027476ba54cf98291526803b74614c3436292e4ab6"
 metafile = true
