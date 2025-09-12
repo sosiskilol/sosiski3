@@ -1,10 +1,6 @@
 hash-format = "sha256"
 
 [[files]]
-file = "README.md"
-hash = "227214269f495bbd3275b32e9256b03368b840e32e58ce875fff8d0783273392"
-
-[[files]]
 file = "config/antiportals-common.toml"
 hash = "167be451731afbba746e4e21d8e8fa43709f28510691912dc2ee6b20dda1a07f"
 
