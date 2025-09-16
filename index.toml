@@ -398,6 +398,11 @@ hash = "d4ce1e57da773c6157f3208eadc40d5962be2bb1d2747eae169debb6d50a543f"
 metafile = true
 
 [[files]]
+file = "mods/jeitweaker.pw.toml"
+hash = "029675dfd46ee0490b5ab10ebb3f260d3a557b60c1ea54066dd90248905fba79"
+metafile = true
+
+[[files]]
 file = "mods/konkrete.pw.toml"
 hash = "90a70141bcec839b6a1aa647c91f97bb7b33b6b9e6ce6b3b18a4113aa7dff636"
 metafile = true
