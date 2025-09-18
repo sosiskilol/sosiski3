@@ -413,6 +413,16 @@ hash = "7ea985404ee4cc9082472c6869ec146309f526e395361b39f2f4c1a43506c41d"
 metafile = true
 
 [[files]]
+file = "mods/kubejs-create.pw.toml"
+hash = "e9ea701c9fc9bb54d1bd3b6998403a229f896449c0d15b5df23dc46e20ac5092"
+metafile = true
+
+[[files]]
+file = "mods/kubejs.pw.toml"
+hash = "b6ed220c9069f60704dbfe19fd55c976ca56ada35bcb6918c4ad226cd842b99c"
+metafile = true
+
+[[files]]
 file = "mods/let-me-feed-you.pw.toml"
 hash = "27fcffbb2905dcfd1b1a9e4c101bd588fbd3eb401eaa7621e104d83ba5dae38a"
 metafile = true
@@ -478,6 +488,11 @@ hash = "3ab8970e80d25686ebe4bf0747a96d116ab961ce6974aa815cc9fcbce5553b62"
 metafile = true
 
 [[files]]
+file = "mods/ponder.pw.toml"
+hash = "128e22711a9e7378dc06daf65c68e02c496c125d8f3bdd320436d3185fe7e9e3"
+metafile = true
+
+[[files]]
 file = "mods/power-grid.pw.toml"
 hash = "f3dbe132c32a40795c42a5a828fcbd09f1c3878b71f8e8d19184cb500eb1daed"
 metafile = true
@@ -485,6 +500,11 @@ metafile = true
 [[files]]
 file = "mods/resourceful-lib.pw.toml"
 hash = "5c07edd0c8fe82e85efd6c027476ba54cf98291526803b74614c3436292e4ab6"
+metafile = true
+
+[[files]]
+file = "mods/rhino.pw.toml"
+hash = "5b92406160d9ea8a61ddf111caaecb7f6283678e2c40b08b72dce3eeaf20dc96"
 metafile = true
 
 [[files]]
