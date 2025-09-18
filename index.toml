@@ -73,6 +73,10 @@ file = "config/tablist-common.toml"
 hash = "20ad10b00a86c31235c27bdb393cd3c9a756e56d3e6ac08c0a9b5b70b434689d"
 
 [[files]]
+file = "kubejs/config/client.properties"
+hash = "eabfdaf874425a66c0617f4976f1354a8e937f91a35ceec2eaae981cc7aeb3ff"
+
+[[files]]
 file = "mods/advancedperipherals.pw.toml"
 hash = "b0c71950ebcbed60805b1d30b1f5107bd3a96f95f89a99be8adfaf98e97b3749"
 metafile = true
