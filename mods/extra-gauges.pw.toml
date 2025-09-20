@@ -1,13 +1,13 @@
 name = "Create: Extra Gauges"
-filename = "extra_gauges-2.0.5-rc1-all.jar"
+filename = "extra_gauges-2.0.6.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/6YJgomwt/versions/vMw8J0mX/extra_gauges-2.0.5-rc1-all.jar"
+url = "https://cdn.modrinth.com/data/6YJgomwt/versions/ydlu99SR/extra_gauges-2.0.6.jar"
 hash-format = "sha512"
-hash = "50c2e5179b1d1c4fd70019878f0bf6373eed3476cd408943e308c3fd45d5a8cc3a1070e74494291715afca552896bd84124aab53384291731b494e10e64f2c6a"
+hash = "67c5b8936eeba0b3bfbf2ab37daef4a39f4e8c70d76b8787a19aac96b2c33a2ff3153a2b10b023f89385b606f935218802129fe7a28eb142a870b2bb82697a5c"
 
 [update]
 [update.modrinth]
 mod-id = "6YJgomwt"
-version = "vMw8J0mX"
+version = "ydlu99SR"

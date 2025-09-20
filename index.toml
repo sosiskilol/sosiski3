@@ -133,7 +133,7 @@ metafile = true
 
 [[files]]
 file = "mods/chat-heads.pw.toml"
-hash = "de0ab85ea06d797c2b3b5c70c8f1fdfc1f76fb2530f792a89f4f6d9807fc649a"
+hash = "d86d7841b54943a073000b301b7c8784439ebe2fd4e622a8b2b0ceef4a00de1c"
 metafile = true
 
 [[files]]
@@ -328,7 +328,7 @@ metafile = true
 
 [[files]]
 file = "mods/extra-gauges.pw.toml"
-hash = "808a9cf05e429359f465e368f0af41fd4e860b17a5b3b024a86546894fb7ce83"
+hash = "521cc9c87baa034ba1998c70983dce129c649c59753a05ee7c9df7c52f6e92a1"
 metafile = true
 
 [[files]]
@@ -398,7 +398,7 @@ metafile = true
 
 [[files]]
 file = "mods/jei.pw.toml"
-hash = "d4ce1e57da773c6157f3208eadc40d5962be2bb1d2747eae169debb6d50a543f"
+hash = "40118245708e1298fb63e0b15297a1ffe0cfc0a481cbca023f00936b6fec8958"
 metafile = true
 
 [[files]]
@@ -498,7 +498,7 @@ metafile = true
 
 [[files]]
 file = "mods/power-grid.pw.toml"
-hash = "f3dbe132c32a40795c42a5a828fcbd09f1c3878b71f8e8d19184cb500eb1daed"
+hash = "dea38d15417b844761ee4b5b7b819f926eea349c376b566ebc95a003dd2bf68d"
 metafile = true
 
 [[files]]
@@ -523,12 +523,12 @@ metafile = true
 
 [[files]]
 file = "mods/simple-voice-chat.pw.toml"
-hash = "24f0481850128deeaa413acb5b68f370c174000e557f407c9156d6f47189f895"
+hash = "f62af5ab636c96e8915bb896ce4092b14b0c3a94a1d89af33853af20b1877f9d"
 metafile = true
 
 [[files]]
 file = "mods/slice-and-dice.pw.toml"
-hash = "1ec44d19b3251bb6673853ce9a1aa63220b01d4920ea60e982b0911c5b5943fb"
+hash = "81153277591961fa6ba18504bf08924eea5a8e0679f590874648c2dfa7e9d882"
 metafile = true
 
 [[files]]
