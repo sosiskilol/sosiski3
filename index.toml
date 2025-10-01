@@ -287,6 +287,11 @@ hash = "abc9d37db15b923cab7bab5561e1ca7bf842d82a62ee04a1e20a4c4e9c031433"
 metafile = true
 
 [[files]]
+file = "mods/createbetterfps.pw.toml"
+hash = "e32c9fced8690cbcee779dcf9b48d38e4f8cf6076ec4bcead8c8a834fc6808c4"
+metafile = true
+
+[[files]]
 file = "mods/createtweaker.pw.toml"
 hash = "fe54ee2fff588885e62f4895806efa81408aef7f514ed5818e8ad9338cafbe07"
 metafile = true
