@@ -1,13 +1,13 @@
 name = "Create Military Grade"
-filename = "Create Military Grade 1.0.9.zip"
+filename = "CMG Parade Protocol 1.1.2.zip"
 side = "client"
 
 [download]
-url = "https://cdn.modrinth.com/data/rcvgfrJ0/versions/WIj4L6ZF/Create%20Military%20Grade%201.0.9.zip"
+url = "https://cdn.modrinth.com/data/rcvgfrJ0/versions/wvVMVtiN/CMG%20Parade%20Protocol%201.1.2.zip"
 hash-format = "sha512"
-hash = "396a420d49ebdef75c9354c974cb4781c531f2cff95a6929c223086e4a8a7ae1a7c9eff58944e91b88f3ea10c62ffb1b74260f8e17eadbaf5c320c2fa8076cbd"
+hash = "53a3dbb61055b9b53566e66161aacc4a7ba50c584118c8757a0326b2324249f8b484ba205a7bbd18bb028fd8173f2f22c453d96545a6d35070dd2b813afbb375"
 
 [update]
 [update.modrinth]
 mod-id = "rcvgfrJ0"
-version = "WIj4L6ZF"
+version = "wvVMVtiN"

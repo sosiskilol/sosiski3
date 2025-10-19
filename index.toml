@@ -78,7 +78,7 @@ hash = "eabfdaf874425a66c0617f4976f1354a8e937f91a35ceec2eaae981cc7aeb3ff"
 
 [[files]]
 file = "mods/advancedperipherals.pw.toml"
-hash = "b0c71950ebcbed60805b1d30b1f5107bd3a96f95f89a99be8adfaf98e97b3749"
+hash = "22023046d65c5c9c0cee0c575c44129414c8a702b06f2f0129ac918a4180495e"
 metafile = true
 
 [[files]]
@@ -133,7 +133,7 @@ metafile = true
 
 [[files]]
 file = "mods/chat-heads.pw.toml"
-hash = "d86d7841b54943a073000b301b7c8784439ebe2fd4e622a8b2b0ceef4a00de1c"
+hash = "cd158052ad85da0c90c9613564f10999ca6c26fe527b77355686d22bdcca100e"
 metafile = true
 
 [[files]]
@@ -143,7 +143,7 @@ metafile = true
 
 [[files]]
 file = "mods/chatnotify.pw.toml"
-hash = "467ad9cd289c9fe300ccdb7158911b04764804d3cba26b5baa3b7ee2d4c89144"
+hash = "e3da839c237373f3ab9b2b5f0cb795134831f7ef822f8cd67a4891734d2e847f"
 metafile = true
 
 [[files]]
@@ -328,12 +328,12 @@ metafile = true
 
 [[files]]
 file = "mods/entityculling.pw.toml"
-hash = "ba33e2257a6e3e4ae195919d16fdb142c326261bd0ea57560820f8d9fd9e324e"
+hash = "ecdd85eb91c66e843bc6194c85a5a0172e1a9717c9205e07c5d0f160bf5927f9"
 metafile = true
 
 [[files]]
 file = "mods/extra-gauges.pw.toml"
-hash = "521cc9c87baa034ba1998c70983dce129c649c59753a05ee7c9df7c52f6e92a1"
+hash = "edb1ddea9ee012f7dffd5c4bf9b3f6b9d33a08bdd029bbf30352ce07a80c5a4c"
 metafile = true
 
 [[files]]
@@ -403,7 +403,7 @@ metafile = true
 
 [[files]]
 file = "mods/jei.pw.toml"
-hash = "40118245708e1298fb63e0b15297a1ffe0cfc0a481cbca023f00936b6fec8958"
+hash = "6d8ca5f4586ae60fe0771ae32a7cb3230030b92fda58d1761c770c24afaa54b2"
 metafile = true
 
 [[files]]
@@ -528,12 +528,12 @@ metafile = true
 
 [[files]]
 file = "mods/simple-voice-chat.pw.toml"
-hash = "f62af5ab636c96e8915bb896ce4092b14b0c3a94a1d89af33853af20b1877f9d"
+hash = "e4b99d45d1cfb55b0ecd2aa78c56958b57460e63b637448017df60b2412e77d9"
 metafile = true
 
 [[files]]
 file = "mods/slice-and-dice.pw.toml"
-hash = "81153277591961fa6ba18504bf08924eea5a8e0679f590874648c2dfa7e9d882"
+hash = "bdb446f03761f760737b82f9f39f73cee8d5b744efa59f2d9fff7281dbacecdb"
 metafile = true
 
 [[files]]
@@ -598,7 +598,7 @@ metafile = true
 
 [[files]]
 file = "resourcepacks/create-military-grade.pw.toml"
-hash = "001f6171ab2b6ad2c9bd2576d6d157bbc1c060f381591bd51986caf733b96868"
+hash = "a3b42f12db80a790cc4febbf0a048d1886255596a97af01e2d87912a786a7671"
 metafile = true
 
 [[files]]
@@ -633,7 +633,7 @@ metafile = true
 
 [[files]]
 file = "shaderpacks/complementary-reimagined.pw.toml"
-hash = "3385e33cb8e2cbf402562dcb68669cc2905fec01b4be9fe27a516010c5aaff87"
+hash = "531a8d239c952428d9a633ff99cb03461656ada28decbe2e1ef19f60f7fd5726"
 metafile = true
 
 [[files]]
