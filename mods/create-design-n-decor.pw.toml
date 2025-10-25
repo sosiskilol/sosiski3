@@ -1,0 +1,8 @@
+name = "Create: Design n' Decor"
+filename = "design_decor-0.4.1b-1.20.1.jar"
+side = "both"
+
+[download]
+url = "https://storage.yandexcloud.net/cdn.sosiski.lol/design_decor-0.4.1b-1.20.1.jar"
+hash-format = "sha512"
+hash = "d323b7e1e33bc430016a867e9196e620316a650fda8c63ac75a52a35f0f9b5a0b8e329dbf6edb46a7405aa0d01c93b73a9a1cd0c49d5111d748962984dc6a2c6"
