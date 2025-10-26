@@ -492,6 +492,11 @@ hash = "f83b253ca6a8e6f2f847952704da0e1fb00e65cbb10b7c9cb15d1a1780618da0"
 metafile = true
 
 [[files]]
+file = "mods/open-parties-and-claims.pw.toml"
+hash = "08d4de41ece4f7ae64bb003e8ecbab1f0d5bde8ef611bad63598d2ee11faa8a2"
+metafile = true
+
+[[files]]
 file = "mods/packagerspsic.pw.toml"
 hash = "331794f0d691092ecd159b864fdcfdd6cdf10366df0124315504c5f1be259efc"
 metafile = true
