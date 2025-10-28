@@ -1,13 +1,8 @@
 name = "S&R Longer Couplers"
-filename = "SR Longer Couplers.zip"
-side = "both"
+filename = "srcouplers.zip"
+side = "client"
 
 [download]
-hash-format = "sha1"
-hash = "aa27cc6d796001bbb6e0bb5ff88771e8fdf1d520"
-mode = "metadata:curseforge"
-
-[update]
-[update.curseforge]
-file-id = 6688886
-project-id = 1293031
+url = "https://storage.yandexcloud.net/cdn.sosiski.lol/srcouplers.zip"
+hash-format = "sha512"
+hash = "bd94661b766b33a491d2111d5866fe0e20f327fb2b02d9d319504c83f4ece66cecf2cb34b09bab0246d1e212f0fb5ed841b9de0f85cc1bc752f0c97d6a75dee1"

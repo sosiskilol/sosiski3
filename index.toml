@@ -608,7 +608,7 @@ metafile = true
 
 [[files]]
 file = "resourcepacks/couplers.pw.toml"
-hash = "1026115b6697db064becbef0ee0ec5aa2cb7669a28a250aa8db26e7518c8d5e1"
+hash = "ef5f84d45621c586e825d92f6aae36926529c5a030adf47619a597931c599a9b"
 metafile = true
 
 [[files]]
