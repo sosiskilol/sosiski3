@@ -3,11 +3,6 @@ filename = "ToolBelt-1.20.1-1.20.02.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "3e4e2d2e3ee9486de4c6b64bcf8f25d87d55fc92"
-mode = "metadata:curseforge"
-
-[update]
-[update.curseforge]
-file-id = 5929061
-project-id = 260262
+url = "https://storage.yandexcloud.net/cdn.sosiski.lol/ToolBelt-1.20.1-1.20.02.jar"
+hash-format = "sha512"
+hash = "35afe90689a0b43117afce826ca96b18296839590ffeb22fa7af0108f86240e89f7dcbcf274c0d120a5c10a0b168b5d2f4a24e02e5d4996ef1fb58afc7857b5c"
