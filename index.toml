@@ -627,6 +627,11 @@ hash = "f1ab0ee895a2679254e9d38b30ee7467f2650239e38fe9c09ceaacba7423356c"
 metafile = true
 
 [[files]]
+file = "resourcepacks/tcotv.pw.toml"
+hash = "71594b2f5661c71b5404a47931f5fcd41bb46611cf786bfece9f978f27cbdb93"
+metafile = true
+
+[[files]]
 file = "scripts/Betonchik.zs"
 hash = "d27baa03cc1571f68a5823c97fab1ae7b29c331cb9f6186d8dd54237c91f9117"
 

@@ -1,0 +1,8 @@
+name = "Tinker's Contruct OTV"
+filename = "tcotv.zip"
+side = "client"
+
+[download]
+url = "https://storage.yandexcloud.net/cdn.sosiski.lol/tcotv.zip"
+hash-format = "sha512"
+hash = "0609b005a9604627f255fb57e9ad257af235cdd984a37af74d1e62e2d01872ecbbd7e240867077e3a420809ab8d55bb2db4f73fad76c92a66d32283820b1a5df"
