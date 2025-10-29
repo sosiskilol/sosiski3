@@ -1,0 +1,23 @@
+{
+  "version": "14.25",
+  "buildNumber": 34,
+  "loadlist": [
+    {
+      "name": "Sosiski",
+      "type": "MojangAPI",
+      "apiRoot": "https://api.sosiski.lol/mc/services/",
+      "sessionRoot": "https://api.sosiski.lol/mc/session/"
+    }
+  ],
+  "enableDynamicSkull": true,
+  "enableTransparentSkin": true,
+  "forceLoadAllTextures": true,
+  "enableCape": true,
+  "threadPoolSize": 8,
+  "enableLogStdOut": false,
+  "cacheExpiry": 30,
+  "forceUpdateSkull": false,
+  "enableLocalProfileCache": false,
+  "enableCacheAutoClean": false,
+  "forceDisableCache": false
+}

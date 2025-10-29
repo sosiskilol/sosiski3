@@ -1,0 +1,13 @@
+name = "CustomSkinLoader"
+filename = "CustomSkinLoader_ForgeV2-14.26.1.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/idMHQ4n2/versions/CcAsu9W3/CustomSkinLoader_ForgeV2-14.26.1.jar"
+hash-format = "sha512"
+hash = "62ad0d1ce7270bab999a32a970b01df94670a5a24ac859490b5cbc515f4665093e691b9aed046109424ecacceac69bfc6fb72c956bb0fa5b0e1cd7a46d7c6d9e"
+
+[update]
+[update.modrinth]
+mod-id = "idMHQ4n2"
+version = "CcAsu9W3"

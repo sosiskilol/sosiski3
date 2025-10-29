@@ -1,6 +1,10 @@
 hash-format = "sha256"
 
 [[files]]
+file = "CustomSkinLoader/CustomSkinLoader.json"
+hash = "62c9cf588eb7b97ec80587cc2e9a06afee53af0b94757e4882b751fbc665cf02"
+
+[[files]]
 file = "config/antiportals-common.toml"
 hash = "167be451731afbba746e4e21d8e8fa43709f28510691912dc2ee6b20dda1a07f"
 
@@ -307,6 +311,11 @@ hash = "fe54ee2fff588885e62f4895806efa81408aef7f514ed5818e8ad9338cafbe07"
 metafile = true
 
 [[files]]
+file = "mods/customskinloader.pw.toml"
+hash = "bc150d55a72b4fb873d287ef5edfd9773e25cbc4836dcbeb88c7a301f702bc00"
+metafile = true
+
+[[files]]
 file = "mods/dim-coord-ratio.pw.toml"
 hash = "794c8c4593a263213f7aa89da85e20d02da09fd596ba6890b5b006a2107b84fd"
 metafile = true
@@ -559,6 +568,11 @@ metafile = true
 [[files]]
 file = "mods/sodium-options-api.pw.toml"
 hash = "75a60e6b443b351b7a4a78ffce7c71e44b3e20ca10c374aea1de516c785d6e2d"
+metafile = true
+
+[[files]]
+file = "mods/sosiskiclient.pw.toml"
+hash = "691dcaa8beb88ac3cf5ea441d5692e926f4db169ba6fe4e7437f26b803b019bf"
 metafile = true
 
 [[files]]
