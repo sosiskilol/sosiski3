@@ -1,0 +1,7 @@
+name = "sosiskitweaks"
+filename = "sosiskitweaks-1.0.0.jar"
+
+[download]
+url = "https://storage.yandexcloud.net/cdn.sosiski.lol/sosiskitweaks-1.0.0.jar"
+hash-format = "sha256"
+hash = "6f3525ec0d0ee3e332edbfbd4a5832a627bd80767a3bc48a816275527d02ff14"

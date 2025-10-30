@@ -576,6 +576,11 @@ hash = "691dcaa8beb88ac3cf5ea441d5692e926f4db169ba6fe4e7437f26b803b019bf"
 metafile = true
 
 [[files]]
+file = "mods/sosiskitweaks.pw.toml"
+hash = "b1a2848501f1026ba9b00d60036c4f355e3128b7aee2fca1e07f6d5b4029a192"
+metafile = true
+
+[[files]]
 file = "mods/spark.pw.toml"
 hash = "0ef2a47f506c83478052262348c105c307d970fbff3f6b0917e46d67f61d8953"
 metafile = true
