@@ -171,11 +171,6 @@ hash = "b2c7739b56ef71f50a86658cfa67375796beafd391c4dbe26a5de8cd92b9b685"
 metafile = true
 
 [[files]]
-file = "mods/crafttweaker.pw.toml"
-hash = "5b39d18c3cc2ba014e309a688aea1c6acbb6650b5885a349af0127990fd06824"
-metafile = true
-
-[[files]]
 file = "mods/create-additional-lights.pw.toml"
 hash = "2efedb0b64d603d60d0d6dce6eee71d73e6d523468f16f53179c77a4e9a32469"
 metafile = true
@@ -303,11 +298,6 @@ metafile = true
 [[files]]
 file = "mods/createbetterfps.pw.toml"
 hash = "e32c9fced8690cbcee779dcf9b48d38e4f8cf6076ec4bcead8c8a834fc6808c4"
-metafile = true
-
-[[files]]
-file = "mods/createtweaker.pw.toml"
-hash = "fe54ee2fff588885e62f4895806efa81408aef7f514ed5818e8ad9338cafbe07"
 metafile = true
 
 [[files]]
