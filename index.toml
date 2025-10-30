@@ -77,8 +77,20 @@ file = "config/tablist-common.toml"
 hash = "20ad10b00a86c31235c27bdb393cd3c9a756e56d3e6ac08c0a9b5b70b434689d"
 
 [[files]]
+file = "kubejs/client_scripts/hiding.js"
+hash = "61c300f8fd1c442ee82a41c845f505c0027796eadded8d2faffbdc79efcedc23"
+
+[[files]]
 file = "kubejs/config/client.properties"
 hash = "eabfdaf874425a66c0617f4976f1354a8e937f91a35ceec2eaae981cc7aeb3ff"
+
+[[files]]
+file = "kubejs/server_scripts/rebalance.js"
+hash = "c73bd6fa03cb14da14ba4c6e99f8fc900a15ce3d1c32ac37abebced2ea2b47c9"
+
+[[files]]
+file = "kubejs/startup_scripts/potions.js"
+hash = "cb3dc8bf210ce302b97480d189b756d8e8696371069bc712e702e037f6c33077"
 
 [[files]]
 file = "mods/advancedperipherals.pw.toml"
@@ -416,11 +428,6 @@ hash = "6d8ca5f4586ae60fe0771ae32a7cb3230030b92fda58d1761c770c24afaa54b2"
 metafile = true
 
 [[files]]
-file = "mods/jeitweaker.pw.toml"
-hash = "029675dfd46ee0490b5ab10ebb3f260d3a557b60c1ea54066dd90248905fba79"
-metafile = true
-
-[[files]]
 file = "mods/konkrete.pw.toml"
 hash = "90a70141bcec839b6a1aa647c91f97bb7b33b6b9e6ce6b3b18a4113aa7dff636"
 metafile = true
@@ -639,26 +646,6 @@ metafile = true
 file = "resourcepacks/tcotv.pw.toml"
 hash = "71594b2f5661c71b5404a47931f5fcd41bb46611cf786bfece9f978f27cbdb93"
 metafile = true
-
-[[files]]
-file = "scripts/Betonchik.zs"
-hash = "d27baa03cc1571f68a5823c97fab1ae7b29c331cb9f6186d8dd54237c91f9117"
-
-[[files]]
-file = "scripts/ComputerCraft.zs"
-hash = "2342a5540a3af951ec51085544fa6fcd2dc12c2efa22350d4c062a2352757314"
-
-[[files]]
-file = "scripts/RUDI.zs"
-hash = "6bd15f9d3551176cc5ee3df4fcfbc7d193b48bfba2740342387ddbeacf1c9480"
-
-[[files]]
-file = "scripts/Rebalance.zs"
-hash = "478364a5280bd5931128791e7275e585f70df27400858a76cc783726695ed02b"
-
-[[files]]
-file = "scripts/Removing.zs"
-hash = "50771c97250b68906761d73956b165933b46bc69fc11fb59bae1aa579f0c105a"
 
 [[files]]
 file = "shaderpacks/bsl-shaders.pw.toml"
