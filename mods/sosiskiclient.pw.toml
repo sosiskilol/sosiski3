@@ -1,5 +1,6 @@
 name = "sosiskiclient"
 filename = "sosiskiclient-1.0.0.jar"
+side = "client"
 
 [download]
 url = "https://storage.yandexcloud.net/cdn.sosiski.lol/sosiskiclient-1.0.0.jar"
