@@ -578,11 +578,6 @@ hash = "b1a2848501f1026ba9b00d60036c4f355e3128b7aee2fca1e07f6d5b4029a192"
 metafile = true
 
 [[files]]
-file = "mods/spark.pw.toml"
-hash = "0ef2a47f506c83478052262348c105c307d970fbff3f6b0917e46d67f61d8953"
-metafile = true
-
-[[files]]
 file = "mods/supermartijn642s-config-lib.pw.toml"
 hash = "1cf9cb3955b075664ea4fba13b47fe7160975740a28864983aebd53d39c1946e"
 metafile = true
@@ -594,7 +589,7 @@ metafile = true
 
 [[files]]
 file = "mods/tab-list.pw.toml"
-hash = "db53ce5510f40712325ea8413dca6f4e320b601f91a61d9e461c60ba04a4aca5"
+hash = "0e583218ac44c2126108cac4d4c85ac17c988e201bfba077f39ffd1da8e8b9c4"
 metafile = true
 
 [[files]]
