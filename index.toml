@@ -73,6 +73,10 @@ file = "config/figura.json"
 hash = "9c0465dcc0c01698a01f91db5faf5fe3a4afda6885c54941af6af4bf58b56f77"
 
 [[files]]
+file = "config/simple-rpc/simple-rpc.toml"
+hash = "a98c8326868c7ecfe56de5610f2e2299fa124030e76561fef4e8f474b0423f9b"
+
+[[files]]
 file = "config/tablist-common.toml"
 hash = "20ad10b00a86c31235c27bdb393cd3c9a756e56d3e6ac08c0a9b5b70b434689d"
 
@@ -180,6 +184,11 @@ metafile = true
 [[files]]
 file = "mods/coroutil.pw.toml"
 hash = "b2c7739b56ef71f50a86658cfa67375796beafd391c4dbe26a5de8cd92b9b685"
+metafile = true
+
+[[files]]
+file = "mods/craterlib.pw.toml"
+hash = "d7c23760009f21d76d4c97945540010818cf9a271b2c79e0727ecc58bcff5b0c"
 metafile = true
 
 [[files]]
@@ -545,6 +554,11 @@ metafile = true
 [[files]]
 file = "mods/scribble.pw.toml"
 hash = "df1b5464f5b59b42724929071d4dd8a31be95d0e4e4fcf07f98bd9ade0a7bc59"
+metafile = true
+
+[[files]]
+file = "mods/simple-discord-rpc.pw.toml"
+hash = "1682add4f33743fe9c60cbae1342e02303d475b652948eeee9071c2be7119f08"
 metafile = true
 
 [[files]]
