@@ -800,14 +800,16 @@ ServerEvents.recipes(event => {
         B: 'minecraft:gold_ingot'
     })
 
-    //Incomplete totem
+
     
+    //Incomplete totem
+
     event.custom({ 
   type: "create:sequenced_assembly",
   ingredient: {
-    item: "minecraft:gold_block"
+    item: "createbigcannons:unbored_very_large_steel_cannon_layer"
   },
-  loops: 5,
+  loops: 2,
   results: [
     {
       count: 1,
@@ -819,11 +821,11 @@ ServerEvents.recipes(event => {
   type: "create:filling",
   ingredients: [
     {
-      item: "minecraft:gold_block"
+      item: "createbigcannons:unbored_very_large_steel_cannon_layer"
     },
     {
       fluid: "create_enchantment_industry:experience",
-      amount: 100
+      amount: 250
     }
   ],
   results: [
@@ -832,24 +834,6 @@ ServerEvents.recipes(event => {
     }
   ]
 },
-    {
-      type: "create:deploying",
-      ingredients: [
-        {
-          item: "handcrafted:evoker_trophy"
-        },
-        [
-          {
-            item: "createbigcannons:unbored_very_large_steel_cannon_layer"
-          }
-        ]
-      ],
-      results: [
-        {
-          item: "handcrafted:evoker_trophy"
-        }
-      ]
-    },
     {
   type: "create:filling",
   ingredients: [
@@ -858,12 +842,12 @@ ServerEvents.recipes(event => {
     },
     {
       fluid: "tconstruct:molten_queens_slime",
-      amount: 270
+      amount: 1000
     }
   ],
   results: [
     {
-      item: "minecraft:experience_bottle"
+      item: "handcrafted:evoker_trophy"
     }
   ]
 },
@@ -874,47 +858,13 @@ ServerEvents.recipes(event => {
       item: "handcrafted:evoker_trophy"
     },
     {
-      fluid: "tconstruct:molten_diamond",
-      amount: 200
+      fluid: "createdieselgenerators:diesel",
+      amount: 450
     }
   ],
   results: [
-    {
-      item: "minecraft:experience_bottle"
-    }
-  ]
-},
-{
-  type: "create:filling",
-  ingredients: [
     {
       item: "handcrafted:evoker_trophy"
-    },
-    {
-      fluid: "tconstruct:molten_netherite",
-      amount: 90
-    }
-  ],
-  results: [
-    {
-      item: "minecraft:experience_bottle"
-    }
-  ]
-},
-{
-  type: "create:filling",
-  ingredients: [
-    {
-      item: "handcrafted:evoker_trophy"
-    },
-    {
-      fluid: "tconstruct:molten_cinderslime",
-      amount: 180
-    }
-  ],
-  results: [
-    {
-      item: "minecraft:experience_bottle"
     }
   ]
 },
@@ -926,13 +876,31 @@ ServerEvents.recipes(event => {
         },
         [
           {
-            item: "createbigcannons:unbored_bronze_cannon_chamber"
+            item: "powergrid:servo"
           }
         ]
       ],
       results: [
         {
+          item: "create_more_additions:incomplete_totem"
+        }
+      ]
+    },
+{
+      type: "create:deploying",
+      ingredients: [
+        {
           item: "handcrafted:evoker_trophy"
+        },
+        [
+          {
+            item: "createoreexcavation:sample_drill"
+          }
+        ]
+      ],
+      results: [
+        {
+          item: "create_more_additions:incomplete_totem"
         }
       ]
     },
@@ -941,134 +909,21 @@ ServerEvents.recipes(event => {
     item: "handcrafted:evoker_trophy"
   }
 })
+    //Totem
 
-    //Craft of totems
-
-    event.custom({ 
-  type: "create:sequenced_assembly",
-  ingredient: {
-    item: "create_more_additions:incomplete_totem"
-  },
-  loops: 3,
-  results: [
-    {
-      count: 1,
-      item: "minecraft:totem_of_undying"
-    }
-  ],
-  sequence: [
-    {
-  type: "create:filling",
-  ingredients: [
-    {
-      item: "create_more_additions:incomplete_totem"
-    },
-    {
-      fluid: "createdieselgenerators:diesel",
-      amount: 300
-    }
-  ],
-  results: [
-    {
-      item: "create_more_additions:incomplete_totem"
-    }
-  ]
-},
-  {
-      type: "create:deploying",
-      ingredients: [
-        {
-          item: "create_more_additions:incomplete_totem"
-        },
-        [
-          {
-            item: "create_new_age:advanced_motor_extension"
-          }
-        ]
-      ],
-      results: [
-        {
-          item: "create_more_additions:incomplete_totem"
-        }
-      ]
-    },
-    {
-      type: "create:deploying",
-      ingredients: [
-        {
-          item: "create_more_additions:incomplete_totem"
-        },
-        [
-          {
-            item: "powergrid:electrical_gizmo"
-          }
-        ]
-      ],
-      results: [
-        {
-          item: "create_more_additions:incomplete_totem"
-        }
-      ]
-    },
-    {
-      type: "create:deploying",
-      ingredients: [
-        {
-          item: "create_more_additions:incomplete_totem"
-        },
-        [
-          {
-            item: "create_things_and_misc:vibration_mechanism"
-          }
-        ]
-      ],
-      results: [
-        {
-          item: "create_more_additions:incomplete_totem"
-        }
-      ]
-    },
-    {
-      type: "create:deploying",
-      ingredients: [
-        {
-          item: "create_more_additions:incomplete_totem"
-        },
-        [
-          {
-            item: "create:precision_mechanism"
-          }
-        ]
-      ],
-      results: [
-        {
-          item: "create_more_additions:incomplete_totem"
-        }
-      ]
-    }, 
-    {
-      type: "create:deploying",
-      ingredients: [
-        {
-          item: "create_more_additions:incomplete_totem"
-        },
-        [
-          {
-            item: "create_more_additions:electrum_jewel"
-          }
-        ]
-      ],
-      results: [
-        {
-          item: "create_more_additions:incomplete_totem"
-        }
-      ]
-    }, 
-],
-  transitionalItem: {
-    item: "create_more_additions:incomplete_totem"
-  }
-})
+    event.custom({
+     type:"createaddition:charging",
+     input: {
+        item: "create_more_additions:incomplete_totem",
+    count: 1
+     },
+     result:  {
+    item: "minecraft:totem_of_undying",
+    count: 1
+     },
+     energy: 10000000,
+      maxChargeRate: 10000
+    })
 
 
 
@@ -1485,7 +1340,6 @@ ServerEvents.recipes(event => {
         [
         'A A',
         'AAA',
-//Lubimaya strochka razrabov sosisok
         ' B '],
         { 
         A: 'create:iron_sheet',
@@ -1631,6 +1485,7 @@ ServerEvents.recipes(event => {
     event.remove({id: 'tconstruct:tools/modifiers/salvage/ability/warping'})
 
     // fuck wings
+//Lubimaya strochka razrabov sosisok
     event.remove({id: 'tconstruct:tools/modifiers/ability/wings'})
     event.remove({id: 'tconstruct:tools/modifiers/salvage/ability/wings'})
 

@@ -86,7 +86,7 @@ hash = "eabfdaf874425a66c0617f4976f1354a8e937f91a35ceec2eaae981cc7aeb3ff"
 
 [[files]]
 file = "kubejs/server_scripts/rebalance.js"
-hash = "c73bd6fa03cb14da14ba4c6e99f8fc900a15ce3d1c32ac37abebced2ea2b47c9"
+hash = "829dc6181d801c02229ed4edb227d521d3c7c7ab8c9f937ba5ce5cea0497186f"
 
 [[files]]
 file = "kubejs/startup_scripts/potions.js"
