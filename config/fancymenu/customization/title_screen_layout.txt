@@ -39,7 +39,7 @@ element {
   nine_slice_custom_background = false
   nine_slice_border_x = 5
   nine_slice_border_y = 5
-  label = {"placeholder":"local","values":{"key":"sosiski.button.play"}} {"placeholder":"serverplayercount","values":{"ip":"localhost"}}
+  label = Подключиться к sosiski.lol {"placeholder":"serverplayercount","values":{"ip":"localhost"}}
   navigatable = true
   widget_active_state_requirement_container_identifier = 4f2175fa-e8ca-4841-b5ff-efa65af72753-1755122887606
   [loading_requirement_container_meta:4f2175fa-e8ca-4841-b5ff-efa65af72753-1755122887606] = [groups:][instances:]

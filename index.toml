@@ -62,7 +62,7 @@ hash = "98daf4462777f92a17893c9fb2b6ef39541bc86ce4ca1e2ceb597a9ce971a72e"
 
 [[files]]
 file = "config/fancymenu/customization/title_screen_layout.txt"
-hash = "8a0e8c4a269905dfd5821174e5ed821bfe816345aa289ab19e04299c204b725c"
+hash = "7d286ce327e9c7c1abc31058718bfaa47268920b39ae8a27ea32b19d6abf5cd3"
 
 [[files]]
 file = "config/fancymenu/legacy_checklist.txt"
@@ -70,7 +70,7 @@ hash = "9a25d3dc708e43eabafce5479a13c02dae15bc7f673afb2745b8b2ba48a97dc0"
 
 [[files]]
 file = "config/fancymenu/options.txt"
-hash = "bce354f0e1fc7fe1562473368ab6fc07485bd76caf62c435a3acc5b08c006ca3"
+hash = "dd9c09980ab42f8062d304b3b6f7c7e2f13e16e5bb0f9e32c5e61a4061b93f67"
 
 [[files]]
 file = "config/figura.json"
