@@ -1,4 +1,8 @@
 {
   "CONFIG_VERSION": 1,
-  "update_channel": 0
+  "chat_nameplate": 1,
+  "entity_nameplate": 1,
+  "list_nameplate": 1,
+  "update_channel": 0,
+  "server_ip": "figura.sosiski.lol"
 }
