@@ -1,26 +1,13 @@
 type = customizablemenus
 
-de.keksuccino.drippyloadingscreen.customization.DrippyOverlayScreen {
-}
-
-de.keksuccino.spiffyhud.customization.SpiffyOverlayScreen {
+net.minecraft.client.gui.screens.OptionsScreen {
 }
 
 lol.sosiski.client.gui.screen.AuthScreen {
 }
 
-net.minecraft.client.gui.screens.OptionsScreen {
+net.minecraft.client.gui.screens.PauseScreen {
 }
 
 net.minecraft.client.gui.screens.TitleScreen {
 }
-
-net.minecraft.client.gui.screens.PauseScreen {
-}
-
-org.figuramc.figura.gui.screens.WardrobeScreen {
-}
-
-org.figuramc.figura.gui.screens.PermissionsScreen {
-}
-
