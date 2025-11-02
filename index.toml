@@ -38,19 +38,23 @@ hash = "d91516faba4eeab4fba282b22eb17428da918a8d70f0a7e7d296b3360cd52671"
 
 [[files]]
 file = "config/fancymenu/customizablemenus.txt"
-hash = "7bcde0d8a26ecbbeb5c7896880a77bbbd14a39491ff01f6bf786bdf91d20ad30"
+hash = "00e49fa81e6f78d6f9f3a0cdeca68817ff413c0200445334f46c09ef0a7e51e9"
 
 [[files]]
 file = "config/fancymenu/customization/lol.sosiski.client.gui.screen.authscreen_layout.txt"
-hash = "957281ce4dff76e445c6598139d8f565923632b005f6ff6a8eb5d368b5b08ae9"
+hash = "56160bfdf8713f629031da356a70c8771dfd885f6427e72af402fdf15f289157"
 
 [[files]]
 file = "config/fancymenu/customization/options_screen_layout.txt"
-hash = "7d8ac0b75fed488556964d749500ed8375e386dcc10a419fc8ae708c6c83c9e8"
+hash = "7eb08f34f7f6b0d3da095eee53ba83339b04945149345408080078aa50d98143"
 
 [[files]]
 file = "config/fancymenu/customization/pause_screen_layout.txt"
-hash = "e892a88bce88468b60215469b2d080d753818b0d09a30121eed9b9c5a2302d4c"
+hash = "abc6508d7b9b6171838b283d1ca2c88049aeea85a8b8a69156300d7593b205dd"
+
+[[files]]
+file = "config/fancymenu/customization/pause_screen_layout_singleplayer.txt"
+hash = "da6d77a073e915a5b12379d9e0ea7bed36575607c86c18c696b994f02185c3d3"
 
 [[files]]
 file = "config/fancymenu/customization/sosiski.credits_layout.txt"
@@ -58,7 +62,7 @@ hash = "98daf4462777f92a17893c9fb2b6ef39541bc86ce4ca1e2ceb597a9ce971a72e"
 
 [[files]]
 file = "config/fancymenu/customization/title_screen_layout.txt"
-hash = "390c4c0aef02e5eae1aae1ecb5b1c2931208abb45d036fc80e589d55c9cb803e"
+hash = "7d286ce327e9c7c1abc31058718bfaa47268920b39ae8a27ea32b19d6abf5cd3"
 
 [[files]]
 file = "config/fancymenu/legacy_checklist.txt"
@@ -66,11 +70,11 @@ hash = "9a25d3dc708e43eabafce5479a13c02dae15bc7f673afb2745b8b2ba48a97dc0"
 
 [[files]]
 file = "config/fancymenu/options.txt"
-hash = "fc6bba1a440de2bf948f09da162567942443f6a51ee70b283d8f465471bc734d"
+hash = "dd9c09980ab42f8062d304b3b6f7c7e2f13e16e5bb0f9e32c5e61a4061b93f67"
 
 [[files]]
 file = "config/figura.json"
-hash = "9c0465dcc0c01698a01f91db5faf5fe3a4afda6885c54941af6af4bf58b56f77"
+hash = "31224025a9604917d69dd346c1f63fdb5c82993a02b73cd6450bf3627ea39ca0"
 
 [[files]]
 file = "config/simple-rpc/simple-rpc.toml"
