@@ -1,0 +1,8 @@
+name = "Prometheus Exporter"
+filename = "Prometheus-Exporter-1.20.1-forge-1.2.1.jar"
+side = "server"
+
+[download]
+url = "https://github.com/cpburnz/minecraft-prometheus-exporter/releases/download/1.20.1-forge-1.2.1/Prometheus-Exporter-1.20.1-forge-1.2.1.jar"
+hash-format = "sha512"
+hash = "5a5662ab82851a83489315677751d5bdef8d3b100889b61c56e51461bc576df04adca664c87e885704cc7a6937a4c692f3bc58521886ac7ce1548c74f1a44316"

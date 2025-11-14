@@ -541,6 +541,11 @@ hash = "dea38d15417b844761ee4b5b7b819f926eea349c376b566ebc95a003dd2bf68d"
 metafile = true
 
 [[files]]
+file = "mods/prometheus-exporter.pw.toml"
+hash = "86c38624b0dc756569fe03b19a57a66cb334d86f4cda9596b03285fd040abd06"
+metafile = true
+
+[[files]]
 file = "mods/resourceful-lib.pw.toml"
 hash = "5c07edd0c8fe82e85efd6c027476ba54cf98291526803b74614c3436292e4ab6"
 metafile = true
