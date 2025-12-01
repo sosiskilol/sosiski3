@@ -111,6 +111,11 @@ hash = "e1a222c5ace6d1b4bab067b1245e460179a153f1e7bc8538335056fa8442155c"
 metafile = true
 
 [[files]]
+file = "mods/animal-garden-owl.pw.toml"
+hash = "baf8adb08013e7f7aeb573b8c7bac15b4cc3c8590d707ba548a4140d76558dd0"
+metafile = true
+
+[[files]]
 file = "mods/anti-xray.pw.toml"
 hash = "db41e89c14e8d4e21903b385ef34a548ef48da36385e1c2f8c44e212eb7c4f69"
 metafile = true
