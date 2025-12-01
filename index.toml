@@ -171,11 +171,6 @@ hash = "cd158052ad85da0c90c9613564f10999ca6c26fe527b77355686d22bdcca100e"
 metafile = true
 
 [[files]]
-file = "mods/chatimage.pw.toml"
-hash = "41b74460fe85c14f73a6909e259174adedc5e2c47826c91a429dd783a29b0740"
-metafile = true
-
-[[files]]
 file = "mods/chatnotify.pw.toml"
 hash = "e3da839c237373f3ab9b2b5f0cb795134831f7ef822f8cd67a4891734d2e847f"
 metafile = true
