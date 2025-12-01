@@ -151,6 +151,11 @@ hash = "52143dc5f02eba14c2ca9e5d8a5e1e56c73adbd67c4c323f4481bba326a26e4a"
 metafile = true
 
 [[files]]
+file = "mods/calmer-nights.pw.toml"
+hash = "85a0ae450f055eecc957997da178cced4f9f0722b0812ad9407ce55c462d1e28"
+metafile = true
+
+[[files]]
 file = "mods/cc-tweaked.pw.toml"
 hash = "33fbfba45630792a9223d4e20c9300bc9fef142c68781fc648c32b62313f3e16"
 metafile = true
@@ -508,6 +513,11 @@ metafile = true
 [[files]]
 file = "mods/noisium.pw.toml"
 hash = "85f965de3efa0ad66252b3540afff30d5a3cf8c9cb86692987830b8ae08489c5"
+metafile = true
+
+[[files]]
+file = "mods/oceans-delight.pw.toml"
+hash = "7f5a7cc6134e81f6f9411e353d5f92bee50fba2edfbc738b1fb3732a54cf51ba"
 metafile = true
 
 [[files]]

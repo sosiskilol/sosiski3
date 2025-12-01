@@ -1,0 +1,13 @@
+name = "Calmer Nights"
+filename = "calmernights-1.1.jar"
+side = "server"
+
+[download]
+url = "https://cdn.modrinth.com/data/okVdlL0S/versions/TyO6Ffcd/calmernights-1.1.jar"
+hash-format = "sha512"
+hash = "bcf04efb53174ab3946cb50297a807ec6c601d43ba398165997e6c0d46ebf5708c2c723520481c3d686d7d9af49d2f5ccc5a2d29dab83b21b0e5e36b5e1df90a"
+
+[update]
+[update.modrinth]
+mod-id = "okVdlL0S"
+version = "TyO6Ffcd"
