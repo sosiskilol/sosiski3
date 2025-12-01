@@ -23,11 +23,8 @@ JEIEvents.hideItems(event => {
     event.hide('createbigcannons:yaw_controller')
     event.hide('create_radar:track_controller')
     event.hide('create_radar:id_block')
-    event.hide('#railways:long_stack')
-    event.hide('#railways:coalburner_stack')
-    event.hide('#railways:oilburner_stack')
-    event.hide('#railways:streamlined_stack')
-    event.hide('#railways:woodburner_stack')
+    event.hide('powergrid:debug')
+    event.hide('create_connected:linked_transmitter')
 
     event.hide('#tconstruct:modifiable')
     event.hide('tconstruct:repair_kit')
@@ -157,10 +154,7 @@ JEIEvents.hideItems(event => {
     event.hide('createdeco:zinc_sheet')
     event.hide('createaddition:zinc_sheet')
     event.hide('electrical_connector')
-    
-    event.hide('createaddition:copper_wire')
-    event.hide('createaddition:iron_wire')
-    event.hide('createaddition:gold_wire')
+    event.hide('createaddition:zinc_sheet')
     event.hide('create_new_age:copper_wire')
     event.hide('create_new_age:overcharged_iron_wire')
     event.hide('create_new_age:overcharged_golden_wire')
@@ -172,6 +166,7 @@ JEIEvents.hideItems(event => {
     event.hide('create_new_age:overcharged_gold')
     event.hide('create_new_age:overcharged_iron_sheet')
     event.hide('create_new_age:overcharged_golden_sheet')
+    
     
 
 

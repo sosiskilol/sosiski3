@@ -86,7 +86,7 @@ hash = "20ad10b00a86c31235c27bdb393cd3c9a756e56d3e6ac08c0a9b5b70b434689d"
 
 [[files]]
 file = "kubejs/client_scripts/hiding.js"
-hash = "61c300f8fd1c442ee82a41c845f505c0027796eadded8d2faffbdc79efcedc23"
+hash = "bee7560c5d04bd583bae5e222a56b4251cf97b2940becf0d2a6a5a0603ef2b7c"
 
 [[files]]
 file = "kubejs/config/client.properties"
@@ -94,7 +94,7 @@ hash = "eabfdaf874425a66c0617f4976f1354a8e937f91a35ceec2eaae981cc7aeb3ff"
 
 [[files]]
 file = "kubejs/server_scripts/rebalance.js"
-hash = "829dc6181d801c02229ed4edb227d521d3c7c7ab8c9f937ba5ce5cea0497186f"
+hash = "4dba486dc543d78ed11478051477ee77e85433a266c3136f2364c6eb1a77e0a5"
 
 [[files]]
 file = "kubejs/startup_scripts/potions.js"
