@@ -90,7 +90,7 @@ hash = "bee7560c5d04bd583bae5e222a56b4251cf97b2940becf0d2a6a5a0603ef2b7c"
 
 [[files]]
 file = "kubejs/config/client.properties"
-hash = "eabfdaf874425a66c0617f4976f1354a8e937f91a35ceec2eaae981cc7aeb3ff"
+hash = "abbefdc3a19a78b119b0347a8d7eba166a3d63695ee89ab796837d3020114786"
 
 [[files]]
 file = "kubejs/server_scripts/rebalance.js"
