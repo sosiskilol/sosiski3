@@ -86,15 +86,15 @@ hash = "20ad10b00a86c31235c27bdb393cd3c9a756e56d3e6ac08c0a9b5b70b434689d"
 
 [[files]]
 file = "kubejs/client_scripts/hiding.js"
-hash = "61c300f8fd1c442ee82a41c845f505c0027796eadded8d2faffbdc79efcedc23"
+hash = "5ebccff38690770a1de21877f0f5a083be7cc82c07a02a2145306511887318bf"
 
 [[files]]
 file = "kubejs/config/client.properties"
-hash = "eabfdaf874425a66c0617f4976f1354a8e937f91a35ceec2eaae981cc7aeb3ff"
+hash = "abbefdc3a19a78b119b0347a8d7eba166a3d63695ee89ab796837d3020114786"
 
 [[files]]
 file = "kubejs/server_scripts/rebalance.js"
-hash = "829dc6181d801c02229ed4edb227d521d3c7c7ab8c9f937ba5ce5cea0497186f"
+hash = "9fb8af6914b8a42fa3a62a4da6511bfbfb3517d89e4dd9ba69bc21dac0d5b590"
 
 [[files]]
 file = "kubejs/startup_scripts/potions.js"
@@ -108,6 +108,11 @@ metafile = true
 [[files]]
 file = "mods/almost-unified.pw.toml"
 hash = "e1a222c5ace6d1b4bab067b1245e460179a153f1e7bc8538335056fa8442155c"
+metafile = true
+
+[[files]]
+file = "mods/animal-garden-owl.pw.toml"
+hash = "baf8adb08013e7f7aeb573b8c7bac15b4cc3c8590d707ba548a4140d76558dd0"
 metafile = true
 
 [[files]]
@@ -151,6 +156,11 @@ hash = "52143dc5f02eba14c2ca9e5d8a5e1e56c73adbd67c4c323f4481bba326a26e4a"
 metafile = true
 
 [[files]]
+file = "mods/calmer-nights.pw.toml"
+hash = "85a0ae450f055eecc957997da178cced4f9f0722b0812ad9407ce55c462d1e28"
+metafile = true
+
+[[files]]
 file = "mods/cc-tweaked.pw.toml"
 hash = "33fbfba45630792a9223d4e20c9300bc9fef142c68781fc648c32b62313f3e16"
 metafile = true
@@ -158,11 +168,6 @@ metafile = true
 [[files]]
 file = "mods/chat-heads.pw.toml"
 hash = "cd158052ad85da0c90c9613564f10999ca6c26fe527b77355686d22bdcca100e"
-metafile = true
-
-[[files]]
-file = "mods/chatimage.pw.toml"
-hash = "41b74460fe85c14f73a6909e259174adedc5e2c47826c91a429dd783a29b0740"
 metafile = true
 
 [[files]]
@@ -511,6 +516,11 @@ hash = "85f965de3efa0ad66252b3540afff30d5a3cf8c9cb86692987830b8ae08489c5"
 metafile = true
 
 [[files]]
+file = "mods/oceans-delight.pw.toml"
+hash = "7f5a7cc6134e81f6f9411e353d5f92bee50fba2edfbc738b1fb3732a54cf51ba"
+metafile = true
+
+[[files]]
 file = "mods/oculus.pw.toml"
 hash = "f83b253ca6a8e6f2f847952704da0e1fb00e65cbb10b7c9cb15d1a1780618da0"
 metafile = true
@@ -538,6 +548,11 @@ metafile = true
 [[files]]
 file = "mods/power-grid.pw.toml"
 hash = "dea38d15417b844761ee4b5b7b819f926eea349c376b566ebc95a003dd2bf68d"
+metafile = true
+
+[[files]]
+file = "mods/prometheus-exporter.pw.toml"
+hash = "86c38624b0dc756569fe03b19a57a66cb334d86f4cda9596b03285fd040abd06"
 metafile = true
 
 [[files]]

@@ -35,6 +35,9 @@ ServerEvents.recipes(event => {
     event.remove({ input: 'minecraft:hopper', type: 'tconstruct:melting'})
     event.remove({ input: 'minecraft:cauldron', type: 'tconstruct:melting'})
     event.remove({ input: 'minecraft:bucket', type: 'tconstruct:melting'})
+    event.remove({ input: 'minecraft:enchanting_table', type: 'tconstruct:melting'})
+    event.remove({ input: 'minecraft:jukebox', type: 'tconstruct:melting'})
+    event.remove({ input: '#minecraft:trim_templates', type: 'tconstruct:melting'})
 
     //Removing navigator
     event.remove({ output: 'createrailwaysnavigator:navigator' })
@@ -61,6 +64,22 @@ ServerEvents.recipes(event => {
     //Removing hyper experience
     event.remove({ input: 'minecraft:glow_ink_sac', type: 'create:mixing'})
 
+    //Removing strange brass sheet
+    event.remove({ input: 'minecraft:iron_block', output: 'create:brass_sheet'})
+
+    //Removing barbed wire
+    event.remove({ output: 'createarmorblocks:barbed_wire'})
+
+    //silver
+    event.remove({ output: 'create:crushed_raw_silver' })
+    event.shapeless(Item.of('create_more_additions:crushed_silver_ore'),['create:crushed_raw_silver'])
+    
+    //redstone link
+    event.remove({ output: 'create_connected:linked_transmitter' })
+
+    //hammers
+    event.remove({ output: '#kubejs:hammers' })
+    event.remove({ input: '#kubejs:hammers' })
 
 
     //=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=//
@@ -119,10 +138,10 @@ ServerEvents.recipes(event => {
     shafts('createcasing:glass_shaft', 'minecraft:glass')
 
     //Cast iron
-    event.remove({ id: 'createbigcannons:compacting/iron_to_cast_iron_ingot' })
-    event.remove({ id: 'createbigcannons:compacting/iron_to_cast_iron_block' })
-    event.recipes.create.compacting('createdeco:industrial_iron_ingot', 'createbigcannons:cast_iron_ingot').heated()
-    event.recipes.create.compacting('create:industrial_iron_block', 'createbigcannons:cast_iron_block').heated()
+    event.remove({ output: 'createbigcannons:cast_iron_ingot' })
+    event.remove({ output: 'createbigcannons:cast_iron_block' })
+    event.recipes.create.compacting('createbigcannons:cast_iron_ingot','createdeco:industrial_iron_ingot').heated()
+    event.recipes.create.compacting('createbigcannons:cast_iron_block','creatie:industrial_ron_block').heated()
 
     //TNT
     event.remove({ output: 'minecraft:tnt' })
@@ -274,6 +293,37 @@ ServerEvents.recipes(event => {
     })
 
 
+    //vent block
+    event.remove({ output: 'railways:conductor_vent' })
+    event.stonecutting('railways:conductor_vent', 'create:zinc_ingot')
+
+    //ind gears
+    event.recipes.create.sandpaper_polishing('create:cogwheel', 'design_decor:industrial_gear')
+    event.recipes.create.sandpaper_polishing('create:large_cogwheel', 'design_decor:industrial_gear_large')
+
+    //decor ind block
+    event.remove({ output: 'design_decor:industrial_plating_block' })
+    event.stonecutting('design_decor:industrial_plating_block', 'create:industrial_iron_block')
+
+    //ind iron block
+    event.remove({ output: 'create:industrial_iron_block', input: 'minecraft:iron_ingot' })
+
+    //ind iron support
+    event.stonecutting('2x createdeco:industrial_iron_support' , 'createdeco:industrial_iron_ingot')
+
+    //cupper can
+    event.remove({ output: 'tconstruct:copper_can' })
+    event.shaped(
+        Item.of('tconstruct:copper_can', 3),[
+        '   ',
+        'AAA',
+        ' A '],
+        {
+        A: 'minecraft:copper_ingot'
+        }
+    )
+    
+   
 
 
     //=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=//
@@ -385,6 +435,11 @@ ServerEvents.recipes(event => {
     {
       item: "create_more_additions:electrum_jewel"
     }]})
+    
+    //wire to wire
+    event.shapeless(Item.of('powergrid:wire'),['createaddition:copper_wire'])
+    event.shapeless(Item.of('powergrid:iron_wire'),['createaddition:iron_wire'])
+    event.shapeless(Item.of('powergrid:golden_wire'),['createaddition:gold_wire'])
     
     //NA connectors
     event.remove({ output: 'create_new_age:electrical_connector' })
@@ -1450,6 +1505,7 @@ ServerEvents.recipes(event => {
         'AEA'],
         { 
         A: 'create:sturdy_sheet',
+//Lubimaya strochka razrabov sosisok
         B: 'advancedperipherals:peripheral_casing',
         D: 'powergrid:bjt_transistor',
         E: 'create:item_vault',
@@ -1485,7 +1541,6 @@ ServerEvents.recipes(event => {
     event.remove({id: 'tconstruct:tools/modifiers/salvage/ability/warping'})
 
     // fuck wings
-//Lubimaya strochka razrabov sosisok
     event.remove({id: 'tconstruct:tools/modifiers/ability/wings'})
     event.remove({id: 'tconstruct:tools/modifiers/salvage/ability/wings'})
 
@@ -1499,6 +1554,169 @@ ServerEvents.recipes(event => {
 
 
 
+    //=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=//
+    //                          Containers                         //
+    //=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=//
+
+
+
+    //pizdec
+    event.remove({output:'create_connected:item_silo'})
+    //ochistka
+    event.remove({output:'#create_vibrant_vaults:vaults'})
+
+    //def vaults
+    event.shaped(
+        Item.of('create:item_vault'),[
+        ' A ',
+        ' B ',
+        ' A '],
+        {
+        A: 'create:iron_sheet',
+        B: 'minecraft:barrel'
+        }
+    )
+    event.shapeless(Item.of('create:item_vault'),
+    ['create_vibrant_vaults:vertical_item_vault'])
+
+    //def colored vaults to def vaults
+    event.recipes.create.splashing('create:item_vault','#create_vibrant_vaults:colored_horizontal_item_vaults')
+    event.recipes.create.splashing('create_vibrant_vaults:vertical_item_vault','#create_vibrant_vaults:colored_vertical_item_vaults')
+
+    //colored def vaults
+    function colored_def_vaults(VerticVault, HorizVault, dye){
+        event.shapeless(Item.of(VerticVault),['create_vibrant_vaults:vertical_item_vault', dye])
+        event.shapeless(Item.of(HorizVault),['create:item_vault', dye])
+        event.shapeless(Item.of(HorizVault),[VerticVault])
+        event.shapeless(Item.of(VerticVault),[HorizVault])
+    }
+    colored_def_vaults('create_vibrant_vaults:red_vertical_item_vault','create_vibrant_vaults:red_item_vault','red_dye')
+    colored_def_vaults('create_vibrant_vaults:white_vertical_item_vault','create_vibrant_vaults:white_item_vault','white_dye')
+    colored_def_vaults('create_vibrant_vaults:orange_vertical_item_vault','create_vibrant_vaults:orange_item_vault','orange_dye')
+    colored_def_vaults('create_vibrant_vaults:magenta_vertical_item_vault','create_vibrant_vaults:magenta_item_vault','magenta_dye')
+    colored_def_vaults('create_vibrant_vaults:light_blue_vertical_item_vault','create_vibrant_vaults:light_blue_item_vault','light_blue_dye')
+    colored_def_vaults('create_vibrant_vaults:yellow_vertical_item_vault','create_vibrant_vaults:yellow_item_vault','yellow_dye')
+    colored_def_vaults('create_vibrant_vaults:lime_vertical_item_vault','create_vibrant_vaults:lime_item_vault','lime_dye')
+    colored_def_vaults('create_vibrant_vaults:pink_vertical_item_vault','create_vibrant_vaults:pink_item_vault','pink_dye')
+    colored_def_vaults('create_vibrant_vaults:gray_vertical_item_vault','create_vibrant_vaults:gray_item_vault','gray_dye')
+    colored_def_vaults('create_vibrant_vaults:light_gray_vertical_item_vault','create_vibrant_vaults:light_gray_item_vault','light_gray_dye')
+    colored_def_vaults('create_vibrant_vaults:cyan_vertical_item_vault','create_vibrant_vaults:cyan_item_vault','cyan_dye')
+    colored_def_vaults('create_vibrant_vaults:purple_vertical_item_vault','create_vibrant_vaults:purple_item_vault','purple_dye')
+    colored_def_vaults('create_vibrant_vaults:blue_vertical_item_vault','create_vibrant_vaults:blue_item_vault','blue_dye')
+    colored_def_vaults('create_vibrant_vaults:brown_vertical_item_vault','create_vibrant_vaults:brown_item_vault','brown_dye')
+    colored_def_vaults('create_vibrant_vaults:green_vertical_item_vault','create_vibrant_vaults:green_item_vault','green_dye')
+    colored_def_vaults('create_vibrant_vaults:black_vertical_item_vault','create_vibrant_vaults:black_item_vault','black_dye')    
+
+    //red deco shipping container
+    function colored_deco_containers(ShipCont, dye){
+        event.shapeless(Item.of(ShipCont),['create:item_vault', dye,'createdieselgenerators:sheet_metal_panel'])
+    }
+    colored_deco_containers('createdeco:red_shipping_container','red_dye')
+    colored_deco_containers('createdeco:white_shipping_container','white_dye')
+    colored_deco_containers('createdeco:orange_shipping_container','orange_dye')
+    colored_deco_containers('createdeco:magenta_shipping_container','magenta_dye')
+    colored_deco_containers('createdeco:light_blue_shipping_container','light_blue_dye')
+    colored_deco_containers('createdeco:yellow_shipping_container','yellow_dye')
+    colored_deco_containers('createdeco:lime_shipping_container','lime_dye')
+    colored_deco_containers('createdeco:pink_shipping_container','pink_dye')
+    colored_deco_containers('createdeco:gray_shipping_container','gray_dye')
+    colored_deco_containers('createdeco:black_shipping_container','black_dye')
+    colored_deco_containers('createdeco:light_gray_shipping_container','light_gray_dye')
+    colored_deco_containers('createdeco:cyan_shipping_container','cyan_dye')
+    colored_deco_containers('createdeco:purple_shipping_container','purple_dye')
+    colored_deco_containers('createdeco:blue_shipping_container','blue_dye')
+    colored_deco_containers('createdeco:brown_shipping_container','brown_dye')
+    colored_deco_containers('createdeco:green_shipping_container','green_dye')
+    
+    //colored deco shippingcontainers to def vaults
+    event.recipes.create.cutting('create:item_vault', 'createdeco:white_shipping_container')
+    event.recipes.create.splashing('createdeco:white_shipping_container','#kubejs:deco_shipping_containers')
+
+    //designdecor containers
+    event.shapeless(Item.of('design_decor:red_container'),['createdeco:red_shipping_container','createdeco:zinc_bars'])
+    event.shapeless(Item.of('design_decor:blue_container'),['createdeco:blue_shipping_container','createdeco:zinc_bars'])
+    event.shapeless(Item.of('design_decor:green_container'),['createdeco:green_shipping_container','createdeco:zinc_bars'])
+    //designdecor containers to deco shippping container
+    event.recipes.create.cutting('createdeco:red_shipping_container', 'design_decor:red_container')
+    event.recipes.create.cutting('createdeco:blue_shipping_container', 'design_decor:blue_container')
+    event.recipes.create.cutting('createdeco:green_shipping_container', 'design_decor:green_container')
+
+    //vibrant vaules colored shipping container
+    function colored_design_containers(VerticBasCont,VerticCont,HorizBasCont,HorizCont,dye){
+        event.shapeless(Item.of(VerticBasCont),['create_vibrant_vaults:vertical_item_vault', dye,'createdieselgenerators:sheet_metal_panel','createdieselgenerators:sheet_metal_panel'])
+        event.shapeless(Item.of(HorizBasCont),['create:item_vault', dye,'createdieselgenerators:sheet_metal_panel','createdieselgenerators:sheet_metal_panel'])
+        event.shapeless(Item.of(HorizBasCont),[VerticBasCont])
+        event.shapeless(Item.of(VerticBasCont),[HorizBasCont])
+        event.shapeless(Item.of(VerticCont),[VerticBasCont, 'createdeco:zinc_bars'])
+        event.shapeless(Item.of(HorizCont),[HorizBasCont, 'createdeco:zinc_bars'])
+        event.shapeless(Item.of(HorizCont),[VerticCont])
+        event.shapeless(Item.of(VerticCont),[HorizCont])
+        event.recipes.create.cutting(VerticBasCont, VerticCont)
+        event.recipes.create.cutting(HorizBasCont, HorizCont)
+        event.shapeless(Item.of(HorizBasCont),['create_vibrant_vaults:basic_shipping_container', dye,])
+        event.shapeless(Item.of(HorizCont),['create_vibrant_vaults:shipping_container', dye,])
+        event.shapeless(Item.of(VerticBasCont),['create_vibrant_vaults:vertical_basic_shipping_container', dye,])
+        event.shapeless(Item.of(VerticCont),['create_vibrant_vaults:vertical_shipping_container', dye,])
+    }
+    colored_design_containers('create_vibrant_vaults:red_vertical_basic_shipping_container', 'create_vibrant_vaults:red_vertical_shipping_container',
+    'create_vibrant_vaults:red_basic_shipping_container', 'create_vibrant_vaults:red_shipping_container','red_dye')
+    colored_design_containers('create_vibrant_vaults:white_vertical_basic_shipping_container', 'create_vibrant_vaults:white_vertical_shipping_container',
+    'create_vibrant_vaults:white_basic_shipping_container', 'create_vibrant_vaults:white_shipping_container','white_dye')
+    colored_design_containers('create_vibrant_vaults:orange_vertical_basic_shipping_container', 'create_vibrant_vaults:orange_vertical_shipping_container',
+    'create_vibrant_vaults:orange_basic_shipping_container', 'create_vibrant_vaults:orange_shipping_container','orange_dye')
+    colored_design_containers('create_vibrant_vaults:magenta_vertical_basic_shipping_container', 'create_vibrant_vaults:magenta_vertical_shipping_container',
+    'create_vibrant_vaults:magenta_basic_shipping_container', 'create_vibrant_vaults:magenta_shipping_container','magenta_dye')
+    colored_design_containers('create_vibrant_vaults:light_blue_vertical_basic_shipping_container', 'create_vibrant_vaults:light_blue_vertical_shipping_container',
+    'create_vibrant_vaults:light_blue_basic_shipping_container', 'create_vibrant_vaults:light_blue_shipping_container','light_blue_dye')
+    colored_design_containers('create_vibrant_vaults:yellow_vertical_basic_shipping_container', 'create_vibrant_vaults:yellow_vertical_shipping_container',
+    'create_vibrant_vaults:yellow_basic_shipping_container', 'create_vibrant_vaults:yellow_shipping_container','yellow_dye')
+    colored_design_containers('create_vibrant_vaults:lime_vertical_basic_shipping_container', 'create_vibrant_vaults:lime_vertical_shipping_container',
+    'create_vibrant_vaults:lime_basic_shipping_container', 'create_vibrant_vaults:lime_shipping_container','lime_dye')
+    colored_design_containers('create_vibrant_vaults:pink_vertical_basic_shipping_container', 'create_vibrant_vaults:pink_vertical_shipping_container',
+    'create_vibrant_vaults:pink_basic_shipping_container', 'create_vibrant_vaults:pink_shipping_container','pink_dye')
+    colored_design_containers('create_vibrant_vaults:gray_vertical_basic_shipping_container', 'create_vibrant_vaults:gray_vertical_shipping_container',
+    'create_vibrant_vaults:gray_basic_shipping_container', 'create_vibrant_vaults:gray_shipping_container','gray_dye')
+    colored_design_containers('create_vibrant_vaults:black_vertical_basic_shipping_container', 'create_vibrant_vaults:black_vertical_shipping_container',
+    'create_vibrant_vaults:black_basic_shipping_container', 'create_vibrant_vaults:black_shipping_container','black_dye')
+    colored_design_containers('create_vibrant_vaults:light_gray_vertical_basic_shipping_container', 'create_vibrant_vaults:light_gray_vertical_shipping_container',
+    'create_vibrant_vaults:light_gray_basic_shipping_container', 'create_vibrant_vaults:light_gray_shipping_container','light_gray_dye')
+    colored_design_containers('create_vibrant_vaults:cyan_vertical_basic_shipping_container', 'create_vibrant_vaults:cyan_vertical_shipping_container',
+    'create_vibrant_vaults:cyan_basic_shipping_container', 'create_vibrant_vaults:cyan_shipping_container','cyan_dye')
+    colored_design_containers('create_vibrant_vaults:purple_vertical_basic_shipping_container', 'create_vibrant_vaults:purple_vertical_shipping_container',
+    'create_vibrant_vaults:purple_basic_shipping_container', 'create_vibrant_vaults:purple_shipping_container','purple_dye')
+    colored_design_containers('create_vibrant_vaults:blue_vertical_basic_shipping_container', 'create_vibrant_vaults:blue_vertical_shipping_container',
+    'create_vibrant_vaults:blue_basic_shipping_container', 'create_vibrant_vaults:blue_shipping_container','blue_dye')
+    colored_design_containers('create_vibrant_vaults:brown_vertical_basic_shipping_container', 'create_vibrant_vaults:brown_vertical_shipping_container',
+    'create_vibrant_vaults:brown_basic_shipping_container', 'create_vibrant_vaults:brown_shipping_container','brown_dye')
+    colored_design_containers('create_vibrant_vaults:green_vertical_basic_shipping_container', 'create_vibrant_vaults:green_vertical_shipping_container',
+    'create_vibrant_vaults:green_basic_shipping_container', 'create_vibrant_vaults:green_shipping_container','green_dye')
+
+    //def vibrant vaults shipping containers
+    event.shapeless(Item.of('create_vibrant_vaults:vertical_basic_shipping_container'),['create_vibrant_vaults:vertical_item_vault','createdieselgenerators:sheet_metal_panel','createdieselgenerators:sheet_metal_panel'])
+    event.shapeless(Item.of('create_vibrant_vaults:basic_shipping_container'),['create:item_vault','createdieselgenerators:sheet_metal_panel','createdieselgenerators:sheet_metal_panel'])
+    event.shapeless(Item.of('create_vibrant_vaults:basic_shipping_container'),['create_vibrant_vaults:vertical_basic_shipping_container'])
+    event.shapeless(Item.of('create_vibrant_vaults:vertical_basic_shipping_container'),['create_vibrant_vaults:basic_shipping_container'])
+    event.shapeless(Item.of('create_vibrant_vaults:vertical_shipping_container'),['create_vibrant_vaults:vertical_basic_shipping_container', 'createdeco:zinc_bars'])
+    event.shapeless(Item.of('create_vibrant_vaults:shipping_container'),['create_vibrant_vaults:basic_shipping_container', 'createdeco:zinc_bars'])
+    event.shapeless(Item.of('create_vibrant_vaults:shipping_container'),['create_vibrant_vaults:vertical_shipping_container'])
+    event.shapeless(Item.of('create_vibrant_vaults:vertical_shipping_container'),['create_vibrant_vaults:shipping_container'])
+
+    //vibrant vaults shipping containers to def vaults
+    event.recipes.create.splashing('create_vibrant_vaults:vertical_shipping_container','#create_vibrant_vaults:colored_vertical_shipping_containers')
+    event.recipes.create.splashing('create_vibrant_vaults:shipping_container','#create_vibrant_vaults:colored_horizontal_shipping_containers')
+    event.recipes.create.splashing('create_vibrant_vaults:vertical_basic_shipping_container','#create_vibrant_vaults:colored_vertical_basic_shipping_containers')
+    event.recipes.create.splashing('create_vibrant_vaults:basic_shipping_container','#create_vibrant_vaults:colored_horizontal_basic_shipping_containers')
+
+    function cutting_ship_cont(output,input){
+        event.recipes.create.cutting(output, input)
+    }
+    cutting_ship_cont('create_vibrant_vaults:basic_shipping_container', 'create_vibrant_vaults:shipping_container')
+    cutting_ship_cont('create_vibrant_vaults:vertical_basic_shipping_container', 'create_vibrant_vaults:vertical_shipping_container')
+    cutting_ship_cont('create:item_vault', 'create_vibrant_vaults:basic_shipping_container')
+    cutting_ship_cont('create_vibrant_vaults:vertical_item_vault', 'create_vibrant_vaults:vertical_basic_shipping_container')
+
+
+
 
 })
 ServerEvents.tags('item', event => {
@@ -1508,4 +1726,52 @@ ServerEvents.tags('item', event => {
     event.removeAllTagsFrom('tconstruct:steel_nugget')
     event.removeAllTagsFrom('createaddition:zinc_sheet')
 
+    //containers all
+    event.add('create_vibrant_vaults:vaults', [
+    '#kubejs:deco_shipping_containers',
+    '#design_decor:containers'])
+
+    //cleanable vaults
+    event.add('kubejs:cleanable_vaults', [
+        '#create_vibrant_vaults:item_vaults',
+        '#kubejs:deco_shipping_containers',
+        '#create_vibrant_vaults:basic_shipping_containers'
+    ])
+
+    //deco containers
+    event.add('kubejs:deco_shipping_containers', [
+    'createdeco:white_shipping_container',
+    'createdeco:orange_shipping_container',
+    'createdeco:magenta_shipping_container',
+    'createdeco:light_blue_shipping_container',
+    'createdeco:yellow_shipping_container',
+    'createdeco:lime_shipping_container',
+    'createdeco:pink_shipping_container',
+    'createdeco:gray_shipping_container',
+    'createdeco:light_gray_shipping_container',
+    'createdeco:cyan_shipping_container',
+    'createdeco:purple_shipping_container',
+    'createdeco:blue_shipping_container',
+    'createdeco:brown_shipping_container',
+    'createdeco:green_shipping_container',
+    'createdeco:red_shipping_container',
+    'createdeco:black_shipping_container'])
+    
+    //horizontal vaults
+    event.add('create_vibrant_vaults:colored_horizontal_item_vaults', 'create:item_vault')
+
+    //ind iron deco block
+    event.removeAllTagsFrom('design_decor:industrial_plating_block')
+
+    //hammers
+    event.add('kubejs:hammers', [
+        'create_ironworks:copper_hammer',
+        'create_ironworks:bronze_hammer',
+        'create_ironworks:steel_hammer',
+        'create_ironworks:iron_hammer',
+        'create_ironworks:gold_hammer',
+        'create_ironworks:diamond_hammer',
+        'create_ironworks:netherite_hammer',
+        'create_ironworks:brass_hammer'
+    ])
 })
