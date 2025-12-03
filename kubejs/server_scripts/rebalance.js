@@ -77,6 +77,10 @@ ServerEvents.recipes(event => {
     //redstone link
     event.remove({ output: 'create_connected:linked_transmitter' })
 
+    //hammers
+    event.remove({ output: '#kubejs:hammers' })
+    event.remove({ input: '#kubejs:hammers' })
+
 
     //=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=//
     //                          Rebalance                          //
@@ -1758,4 +1762,16 @@ ServerEvents.tags('item', event => {
 
     //ind iron deco block
     event.removeAllTagsFrom('design_decor:industrial_plating_block')
+
+    //hammers
+    event.add('kubejs:hammers', [
+        'create_ironworks:copper_hammer',
+        'create_ironworks:bronze_hammer',
+        'create_ironworks:steel_hammer',
+        'create_ironworks:iron_hammer',
+        'create_ironworks:gold_hammer',
+        'create_ironworks:diamond_hammer',
+        'create_ironworks:netherite_hammer',
+        'create_ironworks:brass_hammer'
+    ])
 })
