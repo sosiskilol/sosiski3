@@ -141,7 +141,7 @@ ServerEvents.recipes(event => {
     event.remove({ output: 'createbigcannons:cast_iron_ingot' })
     event.remove({ output: 'createbigcannons:cast_iron_block' })
     event.recipes.create.compacting('createbigcannons:cast_iron_ingot','createdeco:industrial_iron_ingot').heated()
-    event.recipes.create.compacting('createbigcannons:cast_iron_block','creatie:industrial_ron_block').heated()
+    event.recipes.create.compacting('createbigcannons:cast_iron_block','create:industrial_iron_block').heated()
 
     //TNT
     event.remove({ output: 'minecraft:tnt' })
@@ -238,7 +238,7 @@ ServerEvents.recipes(event => {
 
     mossing('minecraft:mossy_stone_bricks', '8x minecraft:stone_bricks')
     mossing('createdeco:mossy_verdant_bricks', '8x createdeco:verdant_bricks')
-    mossing('createdeco:mossy_red_bricks', '8x createdeco:red_bricks')
+    mossing('createdeco:mossy_red_bricks', '8x minecraft:bricks')
     mossing('createdeco:mossy_pearl_bricks', '8x createdeco:pearl_bricks')
     mossing('createdeco:mossy_umber_bricks', '8x createdeco:umber_bricks')
     mossing('createdeco:mossy_scarlet_bricks', '8x createdeco:scarlet_bricks')
@@ -322,6 +322,9 @@ ServerEvents.recipes(event => {
         A: 'minecraft:copper_ingot'
         }
     )
+
+    //creative chain drive
+    event.shapeless(Item.of('createcasing:creative_encased_chain_drive'),['createcasing:creative_casing','create:zinc_nugget','create:zinc_nugget','create:zinc_nugget'])
     
    
 
@@ -1576,8 +1579,9 @@ ServerEvents.recipes(event => {
         B: 'minecraft:barrel'
         }
     )
-    event.shapeless(Item.of('create:item_vault'),
-    ['create_vibrant_vaults:vertical_item_vault'])
+    event.shapeless(Item.of('create:item_vault'),['create_vibrant_vaults:vertical_item_vault'])
+    event.shapeless(Item.of('create_vibrant_vaults:vertical_item_vault'),['create:item_vault'])
+    event.shapeless(Item.of('create:item_vault'),['create_connected:item_silo'])
 
     //def colored vaults to def vaults
     event.recipes.create.splashing('create:item_vault','#create_vibrant_vaults:colored_horizontal_item_vaults')
