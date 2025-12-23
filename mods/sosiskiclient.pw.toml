@@ -1,7 +1,7 @@
 name = "sosiskiclient"
-filename = "sosiskiclient-1.0.1.jar"
+filename = "sosiskiclient-1.0.2.jar"
 
 [download]
-url = "https://storage.yandexcloud.net/cdn.sosiski.lol/sosiskiclient-1.0.1.jar"
+url = "https://storage.yandexcloud.net/cdn.sosiski.lol/sosiskiclient-1.0.2.jar"
 hash-format = "sha256"
-hash = "d2aa6886d24cd82ed60eae07cf98e364a216ef19eb8bc79773d4f08a6d3f6974"
+hash = "686da710db69ada97bc7ff70a2b7908210b3dfac89a7eff4af2df41e38e744b9"
