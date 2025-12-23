@@ -602,7 +602,7 @@ metafile = true
 
 [[files]]
 file = "mods/sosiskiclient.pw.toml"
-hash = "8640ae3b6b6a903d185475523db87ea91d5f3977f4101d1d6d1190cba16f92f4"
+hash = "7e2884d01fe42ecddb5b54c5e5c51475360e58cfebaeb341a0e5002a67732c19"
 metafile = true
 
 [[files]]
