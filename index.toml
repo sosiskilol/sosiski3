@@ -636,6 +636,11 @@ hash = "dae77a178f1f269a3d50e458936f712d679747b799001bd0d7c1b3f3da319080"
 metafile = true
 
 [[files]]
+file = "mods/vanishmod.pw.toml"
+hash = "c508d29b0239a388b9a4f816721649ff9afedbb9a374344c43be78b2fa1ed45c"
+metafile = true
+
+[[files]]
 file = "mods/xaeros-minimap-fair.pw.toml"
 hash = "e01d607797c629196b917b1d156968d9323b88fdd3598d195f89319e0da91186"
 metafile = true
