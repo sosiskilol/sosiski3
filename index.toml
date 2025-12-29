@@ -421,6 +421,11 @@ hash = "41bf7f964a6bde7a54c5eb1cb36cdf3eed2004e4d4d3c578bab3c5937f434139"
 metafile = true
 
 [[files]]
+file = "mods/in-control.pw.toml"
+hash = "be6cb78947aecc992c077f4cf4e19fe6714d4c9b328a9ebe71c6d6887b4f98cf"
+metafile = true
+
+[[files]]
 file = "mods/inline.pw.toml"
 hash = "9091cd2ee859de39c863e5e54c4b999b4bd01b7ba6f21c78fbc23a3a3f520bd1"
 metafile = true
