@@ -421,6 +421,11 @@ hash = "41bf7f964a6bde7a54c5eb1cb36cdf3eed2004e4d4d3c578bab3c5937f434139"
 metafile = true
 
 [[files]]
+file = "mods/in-control.pw.toml"
+hash = "be6cb78947aecc992c077f4cf4e19fe6714d4c9b328a9ebe71c6d6887b4f98cf"
+metafile = true
+
+[[files]]
 file = "mods/inline.pw.toml"
 hash = "9091cd2ee859de39c863e5e54c4b999b4bd01b7ba6f21c78fbc23a3a3f520bd1"
 metafile = true
@@ -506,6 +511,11 @@ hash = "679fa8f3b49b9ed3fbcb29d6ccdb99bce465faa01f9cec000464ac8d4fbe134f"
 metafile = true
 
 [[files]]
+file = "mods/neruina.pw.toml"
+hash = "e6de05ff93544874f2e8a8f6646def228e877aad97396d14e43b9996849a4eab"
+metafile = true
+
+[[files]]
 file = "mods/no-chat-reports.pw.toml"
 hash = "b849dfdaaa3e4ad635fb16595bfd6ae03b83de0c02f5b06faafb24cc33926f3f"
 metafile = true
@@ -547,7 +557,7 @@ metafile = true
 
 [[files]]
 file = "mods/power-grid.pw.toml"
-hash = "dea38d15417b844761ee4b5b7b819f926eea349c376b566ebc95a003dd2bf68d"
+hash = "2e3097b317a6554b0ecf25c32658a973fdd9910bccb49c4fd0c25f5b53ab133f"
 metafile = true
 
 [[files]]
