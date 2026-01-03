@@ -304,9 +304,12 @@ ServerEvents.recipes(event => {
     //decor ind block
     event.remove({ output: 'design_decor:industrial_plating_block' })
     event.stonecutting('design_decor:industrial_plating_block', 'create:industrial_iron_block')
+    event.stonecutting('create:industrial_iron_block', 'design_decor:industrial_plating_block')
 
     //ind iron block
     event.remove({ output: 'create:industrial_iron_block', input: 'minecraft:iron_ingot' })
+    //ind iron weathered
+    event.remove({ output: 'create:weathered_iron_block', input: 'minecraft:iron_ingot' })
 
     //ind iron support
     event.stonecutting('2x createdeco:industrial_iron_support' , 'createdeco:industrial_iron_ingot')
@@ -323,9 +326,58 @@ ServerEvents.recipes(event => {
         }
     )
 
+    //metal_support
+    event.remove({ output: 'design_decor:metal_support' })
+    event.shaped(
+        Item.of('design_decor:metal_support', 4),[
+        'AAA',
+        ' A ',
+        ' A '],
+        {
+        A: 'create:metal_girder'
+        }
+    )
+
+    //diagonal_metal_support
+    event.remove({ output: 'design_decor:diagonal_metal_support' })
+    event.shaped(
+        Item.of('design_decor:diagonal_metal_support', 4),[
+        'AAA',
+        'A  ',
+        'A  '],
+        {
+        A: 'create:metal_girder'
+        }
+    )
+
     //creative chain drive
     event.shapeless(Item.of('createcasing:creative_encased_chain_drive'),['createcasing:creative_casing','create:zinc_nugget','create:zinc_nugget','create:zinc_nugget'])
-    
+
+    //lodestone
+    event.remove({ output: 'minecraft:lodestone' })
+    event.shaped(
+        Item.of('minecraft:lodestone'),[
+        'AAA',
+        'ASA',
+        'AAA'],
+        {
+        A: 'minecraft:chiseled_stone_bricks',
+        S: 'powergrid:magnet'
+        }
+    )
+
+    //metal girder
+    event.remove({ output: 'create:metal_girder' })
+    event.shaped(
+        Item.of('create:metal_girder'),[
+        'AAA',
+        'BBB',
+        '   '],
+        {
+        A: 'createdeco:industrial_iron_sheet',
+        B: 'create:andesite_alloy'
+        }
+    )
    
 
 
@@ -836,9 +888,56 @@ ServerEvents.recipes(event => {
     "energy": 25000,
     "maxChargeRate": 1000
    })
-    
 
+    //insulated copper wire
+    event.shapeless(Item.of('powergrid:insulated_copper_wire'),['powergrid:wire','minecraft:dried_kelp'])
 
+    //copper coil
+    event.shapeless(Item.of('powergrid:copper_coil'),['4x powergrid:wire','minecraft:stick'])
+
+    //resistive coil
+    event.shapeless(Item.of('powergrid:resistive_coil'),['4x powergrid:iron_wire','minecraft:stick'])
+
+    //multimeter
+    event.shaped(
+        Item.of('powergrid:multimeter'),
+        [
+        'ABA',
+        'CDE',
+        '   '],
+        {
+        A: 'powergrid:wire',
+        B: 'powergrid:electrical_gizmo',
+        C: 'powergrid:current_gauge',
+        D: 'powergrid:conductive_casing',
+        E: 'powergrid:voltage_gauge'
+    })
+
+    //light_bulb
+    event.shaped(
+        Item.of('powergrid:light_bulb'),
+        [
+        ' A ',
+        'ABA',
+        ' C '],
+        {
+        A: 'minecraft:glass_pane',
+        B: 'powergrid:iron_wire',
+        C: 'create:iron_sheet'
+    })
+
+    //barretter tube
+    event.shaped(
+        Item.of('powergrid:barretter_tube'),
+        [
+        ' A ',
+        ' B ',
+        ' C '],
+        {
+        A: 'minecraft:quartz',
+        B: 'powergrid:iron_wire',
+        C: 'create:iron_sheet'
+    })
 
     //=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=//
     //                          TOTEMS                             //
@@ -1001,7 +1100,7 @@ ServerEvents.recipes(event => {
         'FGF'],
         {
         A: 'create:iron_sheet',
-        B: 'powergrid:bjt_transistor',
+        B: 'powergrid:regulator_tube',
         C: 'powergrid:diode',
         D: 'powergrid:integrated_circuit',
         E: 'powergrid:resistor',
@@ -1073,7 +1172,7 @@ ServerEvents.recipes(event => {
         {
         A: 'create:iron_sheet',
         B: 'create:transmitter',
-        C: 'powergrid:bjt_transistor',
+        C: 'powergrid:regulator_tube',
         D: 'powergrid:integrated_circuit',
         F: 'createdeco:andesite_sheet',
         G: 'powergrid:potato_battery'
@@ -1140,7 +1239,7 @@ ServerEvents.recipes(event => {
         'FGF'],
         {
         A: 'create:iron_sheet',
-        B: 'powergrid:bjt_transistor',
+        B: 'powergrid:regulator_tube',
         C: 'create:transmitter',
         D: 'create:redstone_link',
         F: 'createdeco:andesite_sheet',
@@ -1233,7 +1332,7 @@ ServerEvents.recipes(event => {
         A: 'create:andesite_casing',
         B: 'createdeco:iron_facade',
         C: 'powergrid:integrated_circuit',
-        D: 'powergrid:bjt_transistor',
+        D: 'powergrid:regulator_tube',
         E: 'powergrid:magnet',
     })
 
@@ -1432,7 +1531,7 @@ ServerEvents.recipes(event => {
         { 
         A: 'create:sturdy_sheet',
         B: 'advancedperipherals:peripheral_casing',
-        C: 'powergrid:bjt_transistor',
+        C: 'powergrid:regulator_tube',
         E: 'minecraft:observer',
         D: 'create_more_additions:electrum_jewel'
     })
@@ -1510,7 +1609,7 @@ ServerEvents.recipes(event => {
         A: 'create:sturdy_sheet',
 //Lubimaya strochka razrabov sosisok
         B: 'advancedperipherals:peripheral_casing',
-        D: 'powergrid:bjt_transistor',
+        D: 'powergrid:regulator_tube',
         E: 'create:item_vault',
         C: 'powergrid:integrated_circuit'
     })
